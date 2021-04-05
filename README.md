@@ -1,1 +1,2 @@
-# Hola soy german y te apuesto un platano a que no tienes 3 ojos xd
+TECNOLOGIA
+file:///C:/Users/DUVALI/Documents/Workspace/Tecnovision.github.io/viewsR/index.html

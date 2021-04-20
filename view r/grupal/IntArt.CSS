@@ -1,0 +1,13 @@
+body{mask-image: image(img/IntArt);}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 250px;
+}
+h2{
+    font-family: fantasy;
+    font-size: 25px;
+    color: darkcyan;
+}

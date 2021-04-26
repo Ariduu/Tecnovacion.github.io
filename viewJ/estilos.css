@@ -1,0 +1,120 @@
+.iconos{
+
+    position: absolute;
+    width: 800px;
+    height: 70px;
+    left: 800px;
+    top: 790px;
+    
+
+    border-radius: 21px;
+
+}
+#segundotitulo{
+    color: #14946D;
+}
+.titulodepag{
+    color: rgb(255, 235, 58);
+}
+
+.registro{
+    text-align: right;
+    font-size: 40px;
+    left: 1000;
+}
+
+.facebook{
+    position: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 15px 25px;
+    cursor: pointer;
+    line-height: 50px;
+    background: #333;
+    color: white;
+    box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
+    transition: .2s;
+    transform: translateY(-3px) scale(1.05);
+    background: cornflowerblue;
+}
+
+.whatsapp{    
+    position: center;
+    width: 50px;
+    height: 50px;
+    left: 1101px;
+    top: 1560px;
+    font-size: 20px;
+    margin: 15px 25px;
+    line-height: 50px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
+    transition: .2s;
+    filter: blur(2px);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px   5px 0px rgba(0, 0, 0, 2);
+    filter: none;
+    background: rgb(53, 156, 53);
+
+}
+
+.instagram{
+    position: center;
+    width: 50px;
+    height: 50px;
+    left: 1101px;
+    top: 1560px;
+    font-size: 20px;
+    margin: 15px 25px;
+    cursor: pointer;
+    line-height: 50px;
+    background: #333;
+    color: white;
+    box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
+    transition: .2s;
+    transform: translateY(-3px) scale(1.05);
+    background: rgb(158, 49, 149);
+}
+
+.discord{
+    position: center;
+    width: 50px;
+    height: 50px;
+    left: 1101px;
+    top: 1560px;
+    font-size: 20px;
+    margin: 15px 25px;
+    cursor: pointer;
+    line-height: 50px;
+    background: #333;
+    color: white;
+    box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
+    transition: .2s;
+    transform: translateY(-3px) scale(1.05);
+    background: rgb(52, 87, 241);   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

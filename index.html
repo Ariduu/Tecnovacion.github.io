@@ -6,45 +6,44 @@
         <meta name="Inicio" content="Tecnología en diversas áreas">
         <meta name="Autor" content="Tecnovación">
         <title>TECNOVACIÓN | Inicio</title>
+        <link rel="stylesheet" href="estilos.css">
     </head>
 
     <body>
-        <div aling="center">
-            <header style="background-color: black;">
-                <input style="font-size: 50px;" type="button" value="TECNOVACIÓN">
-                <input style="font-size: 20px; width: 350px;" type="search" value="Qué tema quieres saber?">
-                <input style="font-size: 20px;" type="button" value="Suscribirse">
-                <input style="font-size: 20px;" type="button" value="Registrarse">
-                <input style="font-size: 20px;" type="button" value="Iniciar sesión">
-            </header>
-            <nav>
-                <!--PAra barra de inicio | Ayuda | etc-->
-            </nav>
-            <br>
-            <div align="center" style="background-image:url(Imagenes/Fondo1.jpeg); background-size: 1510px; width: 1500px; height: 660px; color: white;">
-                <img src="Imagenes/Logo1.png" width="550" height="250">
-                <p style="font-size: 60px; letter-spacing: 50px;">BIENVENIDO</p>
-                <p style="font-size: 40px; line-height: 33px;">Aquí encontraras información sobre la<br>tecnología en diversas áreas</p>
-                <p style="font-size: 25px; line-height: 50px;">
-                    Ver articulos ( ͡👁️ ͜ʖ ͡👁️)<br>
-                    <input title="Ver más" type="image" src="Imagenes/flechaAbajo.png" width="30">
-                </p>
-                <br><br>
-            </div>
-            <br>
+        <header>
             <nav>
                 <ul>
-                    <il>Videojuegos</il>
-                    <il>Inteligencia Artificial</il>
-                    <il>Música</il>
-                    <il>Medicina</il>
-                    <il>Educación</il>
+                    <il class="nombre">TECNOVACIÓN</il>
+                    <il class="buscador">Buscador</il>
+                    <il class="suscribirse">Suscribirse</il>
+                    <il class="registrarse">Registrarse</il>
+                    <il class="iniciarSesion">Iniciar sesión</il>
                 </ul>
-                <!--<input style="font-size: 20px;" type="button" value="Videojuegos">
-                <input style="font-size: 20px;" type="button" value="Inteligencia Artificial">
-                <input style="font-size: 20px;" type="button" value="Música">
-                <input style="font-size: 20px;" type="button" value="Medicina">
-                <input style="font-size: 20px;" type="button" value="Educación">-->
+            </nav>
+        </header>
+        <br>
+        <div class="inicio">
+            <img src="Imagenes/Logo1.png" width="550" height="250">
+            <div class="bienvenido">BIENVENIDO</div>
+            <div class="informacion">
+                Aquí encontraras información sobre la tecnología en diversas áreas
+            </div>
+            <div class="verMas">
+                Ver articulos ( ͡👁️ ͜ʖ ͡👁️)
+                <input title="Ver más" type="image" src="Imagenes/flechaAbajo.png" width="30">
+            </div>
+            <br><br>
+        </div>
+        <br>
+        <div class="panelMenu">
+            <nav>
+                <ul>
+                    <li>Videojuegos</li>
+                    <li>Inteligencia Artificial</li>
+                    <li>Música</li>
+                    <li>Medicina</li>
+                    <li>Educación</li>
+                </ul>
             </nav>
             <section>
                 <article>
@@ -74,8 +73,10 @@
             </section>
         </div>
         <hr>
-        <footer align="center">
-            Derechos reservados 2010-2021
-        </footer>
+        <div class="pieDePagina">
+            <footer align="center">
+                Derechos reservados 2010-2021
+            </footer>
+        </div>
     </body>
 </html>

@@ -1,0 +1,62 @@
+.iconos{
+
+    position: absolute;
+    width: 800px;
+    height: 70px;
+    left: 800px;
+    top: 790px;
+    
+
+    border-radius: 21px;
+
+}
+#segundotitulo{
+    color: #14946D;
+}
+.titulodepag{
+    color: rgb(255, 235, 58);
+}
+.fb{
+
+    position: center;
+    width: 42px;
+    height: 40px;
+    left: 1101px;
+    top: 621px;
+    border-radius: 19px;
+    margin: 15px 50px;
+}
+
+.insta{
+    position: center;
+    width: 45px;
+    height: 44px;
+    left: 800px;
+    top: 700px;
+    border-radius: 19px;
+    margin: 15px 50px;
+}
+.wsp{
+    position: center;
+    width: 45px;
+    height: 44px;
+    left: 1179px;
+    top: 621px;
+    border-radius: 19px;
+    margin: 15px 50px;
+}
+.discord{
+    position: center;
+    width: 45px;
+    height: 44px;
+    left: 1269px;
+    top: 622px;
+    border-radius: 18px;
+    margin: 15px 50px;
+    text-align: center;
+}
+.registro{
+    text-align: right;
+    font-size: 40px;
+    left: 1000;
+}

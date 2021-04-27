@@ -5,11 +5,12 @@
 
 .todo{border: 1px solid red;
     position: absolute;
-    width: 1440px;
+    width: 1500px;
+    height: 1920px;
     left: calc(50% - 1400px/2 - 52.5px);
     display: block;
     border: 3px solid red;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -18,10 +19,10 @@
     width: 1500px;
     height: 620px;
     top: 90px;    
+    color: white;
     background: url(Imagenes/Fondo1.jpeg);
     background-size: 1500px 620px;
     background-repeat: no-repeat;
-    mix-blend-mode: normal;
 }
 
 .inicio img{border: 1px solid red;
@@ -33,44 +34,103 @@
 .bienvenido{border: 1px solid red;
     position: absolute;
     margin-top: 50px;
-    width: 637px;
-    height: 75px;
-    left: 402px;
+    width: 770px;
+    left: calc(1500px/2 - 770px/2);;
     top: 300px;
     font-family: Quantico;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
-    line-height: 55px;
-    display: flex;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.7em;
 }
 
 .informacion{border: 1px solid red;
     position: absolute;
     margin-top: 30px;
-    width: 714px;
-    height: 86px;
-    left: 363px;
-    top: 400px;
-    font-family: Quantico;
-    font-style: normal;
-    font-weight: normal;
+    width: 630px;
+    left: calc(1500px/2 - 630px/2);
+    top: 410px;
     font-size: 40px;
     line-height: 38px;
-    display: flex;
-    align-items: center;
 }
 
 .verMas{border: 1px solid red;
     position: absolute;
-    width: 261px;
-    height: 30px;
-    left: 590px;
+    width: 260px;
+    left: calc(1500px/2 - 260px/2);
     top: 540px;
-    font-family: Amethysta;
-    font-style: normal;
-    font-weight: normal;
     font-size: 25px;
     line-height: 32px;
+    margin-bottom: 100px;
+}
+
+.areas{border: 1px solid red;
+    position: absolute;
+    width: 1500px;
+    left: -1px;
+    top: 740px;
+    font-size: 20px;
+}
+
+.areas li{border: 1px solid red;
+    list-style: none;
+    display: inline-block;
+}
+
+section{border: 1px solid red;
+    position: absolute;
+    width: 1500px;
+    height: 655px;
+    left: 0px;
+    top: 855px;
+    display: inline-block;
+    list-style: none;
+}
+
+.articulo1{border: 1px solid red;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 50px;
+}
+.articulo2{border: 1px solid red;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 520px;
+}
+.articulo3{border: 1px solid red;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 990px;
+}
+.articulo4{border: 1px solid red;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 50px;
+}
+.articulo5{border: 1px solid red;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 50px;
+}
+.articulo6{border: 1px solid red;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 50px;
+    top: 350px;
+}
+
+.pieDePagina{
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    top: 1820px;
+    background: black;
+    color: white;
+    clear: both;
 }

@@ -97,7 +97,25 @@
     background: rgb(52, 87, 241);   
 }
 
+.container-all{
+    width: 1800px;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
+.nombre {
+    text-align: left;
+    position: center;
+    width: 1800px;
+    height: 70px;
+    top: 10px;
+    left: calc(60% - 1400px/2 - 40px);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    mix-blend-mode: normal;}
 
 
 

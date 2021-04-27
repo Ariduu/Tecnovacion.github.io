@@ -1,73 +1,38 @@
-header{
-    position: absolute;
-    width: 1500px;
-    height: 70px;
-    top: 10px;
-    left: calc(50% - 1400px/2 - 50px);
-    background-color: black;
-    color: white;
-    mix-blend-mode: normal;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.nombre{
-    position: absolute;
-    width: 385px;
-    height: 35px;
-    left: 25px;
-    font-family: Quantico;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 70px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    mix-blend-mode: normal;
-}
-.buscador{
-    position: absolute;
-    width: 620px;
-    height: 30.13px;
-    left: 450px;
-}
-.suscribirse{
-    position: absolute;
-    width: 120px;
-    height: 40px;
-    left: 1070px;
-}
-.registrarse{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 1200px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.iniciarSesion{
+.todo{border: 1px solid red;
     position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 1310px;
-}
-
-div{
+    width: 1440px;
+    left: calc(50% - 1400px/2 - 52.5px);
+    display: block;
+    border: 3px solid red;
     color: white;
     text-align: center;
 }
-.inicio{
+
+.inicio{border: 1px solid red;
     position: absolute;
-    size: 1500px;
     width: 1500px;
-    height: 600px;
-    left: 20px;
-    top: 90px;
-    left: calc(50% - 1400px/2 - 50px);
+    height: 620px;
+    top: 90px;    
     background: url(Imagenes/Fondo1.jpeg);
+    background-size: 1500px 620px;
+    background-repeat: no-repeat;
     mix-blend-mode: normal;
 }
-.bienvenido{
+
+.inicio img{border: 1px solid red;
+    margin-top: 30px;
+    width: 450px;
+    height: 250px;
+}
+
+.bienvenido{border: 1px solid red;
     position: absolute;
+    margin-top: 50px;
     width: 637px;
     height: 75px;
     left: 402px;
@@ -80,8 +45,10 @@ div{
     display: flex;
     letter-spacing: 0.5em;
 }
-.informacion{
+
+.informacion{border: 1px solid red;
     position: absolute;
+    margin-top: 30px;
     width: 714px;
     height: 86px;
     left: 363px;
@@ -94,12 +61,13 @@ div{
     display: flex;
     align-items: center;
 }
-.verMas{
+
+.verMas{border: 1px solid red;
     position: absolute;
     width: 261px;
     height: 30px;
     left: 590px;
-    top: 514px;
+    top: 540px;
     font-family: Amethysta;
     font-style: normal;
     font-weight: normal;

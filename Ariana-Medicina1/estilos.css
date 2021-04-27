@@ -1,0 +1,89 @@
+.todo{border: 1px solid red;
+    position: absolute;
+    width: 1500px;
+    height: 1920px;
+    left: calc(50% - 1400px/2 - 52.5px);
+    display: block;
+    border: 3px solid red;
+    color: black;
+    text-align: center;
+}
+
+.titulo{border: 1px solid red;
+    position: absolute;
+    width: 1500px;
+    height: 170px;
+    font-size: 72px
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #323D44 0%, rgba(0, 153, 254, 0) 100%);
+}
+
+.fondo{
+    position: absolute;
+    width: 1500px;
+    height: 715px;
+    left: 0px;
+    top: 170px;
+    background: url(Imagenes/Doctor-doctora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hola1{border: 1px solid yellow;
+    position: absolute;
+    width: 1500px;
+    height: 500px;
+    left: 0px;
+    top: 885px;
+    background: #387EB8;
+}
+
+.hola1 h2{
+    position: absolute;
+    width: 713px;
+    height: 60px;
+    left: 0px;
+    background: rgba(116, 243, 243, 0.9);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.hola1 p{border: 1px solid greenyellow;
+    position: absolute;
+    width: 1000px;
+    height: 350px;
+    left: 20px;
+    top: 70px;
+    text-align: left;
+    font-size: 24px;
+}
+.hola1 img{border: 1px solid greenyellow;
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 1050px;
+    top: 92.5px;
+
+}
+.hola2{border: 1px solid red;
+    position: absolute;
+    width: 1500px;
+    height: 500px;
+    left: 0px;
+    top: calc(885px + 500px);
+    background: #FFD100;
+}
+.hola2 img{border: 1px solid red;
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 20px;
+    top: 20px;
+}
+.hola2 div{border: 1px solid red;
+    position: absolute;
+    width: 980px;
+    height: 420px;
+    left: 480px;
+    top: 20px;
+    font-size: 24px;
+    text-align: right;
+}

@@ -111,11 +111,12 @@
     width: 1800px;
     height: 70px;
     top: 10px;
-    left: calc(50% - 1400px/2 - 40px);
+    left: calc(60% - 1400px/2 - 40px);
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 60px;
     mix-blend-mode: normal;}
+
 
 
 

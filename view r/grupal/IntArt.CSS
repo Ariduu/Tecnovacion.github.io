@@ -4,10 +4,14 @@ h1{
 }
 
 img{
-    width: 250px;
+    width: 300px;
 }
 h2{
     font-family: fantasy;
-    font-size: 25px;
+    font-size: 30px;
     color: darkcyan;
+}
+
+h4{
+    mask-image: image(img/iconoDiscord)
 }

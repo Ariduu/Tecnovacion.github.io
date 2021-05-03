@@ -1,11 +1,11 @@
-body{mask-image: image(img/IntArt);}
+body {mask-image: image(img/IntArt);}
 
-h{
+h{ 
     font-size: 40px;
     color: white;
 }
 
-h1{
+h1 {
     font-size: 45px;
     font-family: sans-serif;
     font-weight: bold;
@@ -13,10 +13,10 @@ h1{
     text-align: center;
 }
 
-img{
+img {
     width: 200px;
 }
-h2{
+h2 {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -27,32 +27,58 @@ header,section, footer, aside, nav, article{
     display: block;
 }
 
-.agrupar{
+.agrupar {
     border-image: none;
     margin: auto;
     border: 1px black;
-    width: 700px;
+    width: 1000px;
+    float: left;
     
 }
-header{
+header {
     background: black;
 }
 .menu li {
-    list-style: none;
-    
-    
+    list-style: none; 
+    color: greenyellow;
 }
 
-.primero{
-    margin: 20px;
-    width: 800;
-    border: 1px solid black;
+.primero {
+    margin: 15px;
+    width: 400;
+    
     
 }
-.segundo{
-    margin: 20px;
-    right: 600;
-    border: 1px solid black;
+.segundo {
+    margin: 15px;
+    right: 400;
+    
+}
+.columna {
+    width: 400px;
+    float: right;
+    text-align: center;
+    margin: 25px 5px;
+    
+}
+.columna2 {
+      width: 400px;
+      float: left;
+      text-align: center;
+      margin: 25px 90px;
+}
+.pie {
+    clear: both;
+    text-align: right;
+    
+
 }
 
+article footer {
+    text-align: left;
+}
+
+p {
+    color: greenyellow;
+}
 

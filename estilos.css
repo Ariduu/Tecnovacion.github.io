@@ -15,11 +15,11 @@
 .inicio{
     position: absolute;
     width: 1530px;
-    height: 650px;
+    height: 640px;
     top: 70px;    
     color: white;
     background: url(Imagenes/FondoAnimado1.gif);
-    background-size: 1530px 650px;
+    background-size: 1530px 640px;
     background-repeat: no-repeat;
 }
 
@@ -95,7 +95,7 @@ section{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
-    left: 520px;
+    left: calc(50% - 200px);
 }
 .articulo3{border: 1px solid red;
     position: absolute;
@@ -114,7 +114,7 @@ section{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
-    left: 520px;
+    left: calc(50% - 200px);
     top: 350px;
 }
 .articulo6{border: 1px solid red;
@@ -125,9 +125,15 @@ section{border: 1px solid red;
     top: 350px;
 }
 
+.verTodo{
+    position: absolute;
+    left: 1350px;
+    top: 675px;
+}
+
 .pieDePagina{
     position: absolute;
-    width: 1500px;
+    width: 1530px;
     height: 100px;
     top: 1820px;
     background: black;

@@ -1,13 +1,84 @@
-body{mask-image: image(img/IntArt);}
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {mask-image: image(img/IntArt);}
+
+h{ 
+    font-size: 40px;
+    color: white;
 }
 
-img{
-    width: 250px;
+h1 {
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
 }
-h2{
-    font-family: fantasy;
-    font-size: 25px;
-    color: darkcyan;
+
+img {
+    width: 200px;
 }
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: turquoise;
+}
+
+header,section, footer, aside, nav, article{
+    display: block;
+}
+
+.agrupar {
+    border-image: none;
+    margin: auto;
+    border: 1px black;
+    width: 1000px;
+    float: left;
+    
+}
+header {
+    background: black;
+}
+.menu li {
+    list-style: none; 
+    color: greenyellow;
+}
+
+.primero {
+    margin: 15px;
+    width: 400;
+    
+    
+}
+.segundo {
+    margin: 15px;
+    right: 400;
+    
+}
+.columna {
+    width: 400px;
+    float: right;
+    text-align: center;
+    margin: 25px 5px;
+    
+}
+.columna2 {
+      width: 400px;
+      float: left;
+      text-align: center;
+      margin: 25px 90px;
+}
+.pie {
+    clear: both;
+    text-align: right;
+    
+
+}
+
+article footer {
+    text-align: left;
+}
+
+p {
+    color: greenyellow;
+}
+

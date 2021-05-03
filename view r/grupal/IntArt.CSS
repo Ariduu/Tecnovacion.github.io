@@ -1,17 +1,58 @@
 body{mask-image: image(img/IntArt);}
+
+h{
+    font-size: 40px;
+    color: white;
+}
+
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
 }
 
 img{
-    width: 300px;
+    width: 200px;
 }
 h2{
-    font-family: fantasy;
-    font-size: 30px;
-    color: darkcyan;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: turquoise;
 }
 
-h4{
-    mask-image: image(img/iconoDiscord)
+header,section, footer, aside, nav, article{
+    display: block;
 }
+
+.agrupar{
+    border-image: none;
+    margin: auto;
+    border: 1px black;
+    width: 700px;
+    
+}
+header{
+    background: black;
+}
+.menu li {
+    list-style: none;
+    font; bold 14px verdana;
+    
+}
+
+.primero{
+    margin: 20px;
+    width: 800;
+    border: 1px solid black;
+    
+}
+.segundo{
+    margin: 20px;
+    right: 600;
+    border: 1px solid black;
+}
+
+

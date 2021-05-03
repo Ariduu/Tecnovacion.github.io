@@ -3,25 +3,23 @@
     padding: 0;
 }
 
-.todo{border: 1px solid red;
+.cuerpo{border: 1px solid red;
     position: absolute;
-    width: 1500px;
+    width: 1530px;
     height: 1920px;
-    left: calc(50% - 1400px/2 - 52.5px);
+    left: calc(50% - 1550px/2);
     display: block;
-    border: 3px solid red;
-    color: black;
     text-align: center;
 }
 
-.inicio{border: 1px solid red;
+.inicio{
     position: absolute;
-    width: 1500px;
-    height: 620px;
-    top: 90px;    
+    width: 1530px;
+    height: 650px;
+    top: 70px;    
     color: white;
-    background: url(Imagenes/Fondo1.jpeg);
-    background-size: 1500px 620px;
+    background: url(Imagenes/FondoAnimado1.gif);
+    background-size: 1530px 650px;
     background-repeat: no-repeat;
 }
 
@@ -47,7 +45,7 @@
 .informacion{border: 1px solid red;
     position: absolute;
     margin-top: 30px;
-    width: 630px;
+    width: 640px;
     left: calc(1500px/2 - 630px/2);
     top: 410px;
     font-size: 40px;
@@ -110,18 +108,20 @@ section{border: 1px solid red;
     width: 400px;
     height: 300px;
     left: 50px;
+    top: 350px;
 }
 .articulo5{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
-    left: 50px;
+    left: 520px;
+    top: 350px;
 }
 .articulo6{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
-    left: 50px;
+    left: 990px;
     top: 350px;
 }
 

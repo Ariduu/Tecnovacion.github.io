@@ -1,85 +1,90 @@
 *{
     margin: 0;
     padding: 0;
+    left: 0;
 }
 
-.cuerpo{border: 1px solid red;
+.cuerpo{
     position: absolute;
-    width: 1530px;
-    height: 1920px;
-    left: calc(50% - 1550px/2);
+    width: 1515px;
+    height: 1810px;
+    left: calc(50% - 1515px/2);
     display: block;
     text-align: center;
 }
 
 .inicio{
     position: absolute;
-    width: 1530px;
+    width: 1515px;
     height: 640px;
     top: 70px;    
     color: white;
     background: url(Imagenes/FondoAnimado1.gif);
-    background-size: 1530px 640px;
+    background-size: 1515px 640px;
     background-repeat: no-repeat;
 }
 
-.inicio img{border: 1px solid red;
-    margin-top: 30px;
-    width: 450px;
+.inicio img{
+    width: 500px;
     height: 250px;
+    margin-top: 30px;
 }
 
-.bienvenido{border: 1px solid red;
+.bienvenido{
     position: absolute;
+    width: 900px;
     margin-top: 50px;
-    width: 770px;
-    left: calc(1500px/2 - 770px/2);;
-    top: 300px;
+    left: calc(50% - 900px/2);;
+    top: 270px;
     font-family: Quantico;
     font-style: normal;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 70px;
     letter-spacing: 0.7em;
 }
 
-.informacion{border: 1px solid red;
+.informacion{
     position: absolute;
     margin-top: 30px;
     width: 640px;
-    left: calc(1500px/2 - 630px/2);
-    top: 410px;
+    left: calc(50% - 630px/2);
+    top: 400px;
     font-size: 40px;
     line-height: 38px;
 }
 
-.verMas{border: 1px solid red;
+.verMas{
     position: absolute;
     width: 260px;
-    left: calc(1500px/2 - 260px/2);
+    left: calc(50% - 260px/2);
     top: 540px;
     font-size: 25px;
-    line-height: 32px;
     margin-bottom: 100px;
+}
+.verMas input{
+    margin-top: 8px;
 }
 
 .areas{border: 1px solid red;
     position: absolute;
-    width: 1500px;
+    width: 1515px;
+    height: 100px;
     left: -1px;
     top: 740px;
-    font-size: 20px;
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(180deg, #910909 0%, rgba(107, 30, 30, 0) 100%);
 }
 
-.areas li{border: 1px solid red;
+.areas li{border: 1px solid white;
     list-style: none;
     display: inline-block;
 }
 
-section{border: 1px solid red;
+.noticias{
     position: absolute;
-    width: 1500px;
-    height: 655px;
-    left: 0px;
+    width: 1515px;
+    left: -1px;
     top: 855px;
     display: inline-block;
     list-style: none;
@@ -89,7 +94,7 @@ section{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
-    left: 50px;
+    left: calc(50% - 650px);
 }
 .articulo2{border: 1px solid red;
     position: absolute;
@@ -101,13 +106,13 @@ section{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
-    left: 990px;
+    left: calc(50% + 250px);
 }
 .articulo4{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
-    left: 50px;
+    left: calc(50% - 650px);
     top: 350px;
 }
 .articulo5{border: 1px solid red;
@@ -121,22 +126,11 @@ section{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
-    left: 990px;
+    left: calc(50% + 250px);
     top: 350px;
 }
-
 .verTodo{
     position: absolute;
-    left: 1350px;
-    top: 675px;
-}
-
-.pieDePagina{
-    position: absolute;
-    width: 1530px;
-    height: 100px;
-    top: 1820px;
-    background: black;
-    color: white;
-    clear: both;
+    left: calc(50% + 600px);
+    top: 670px;
 }

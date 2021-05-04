@@ -4,7 +4,7 @@
     left: 0;
 }
 
-.barraInicial{
+.barraInicial{ border: 1px solid white;
     text-align: center;
     height: 60px;
     background-color: black;
@@ -16,3 +16,49 @@
     list-style: none;
     display: inline-block;
 }
+
+.nombre{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: calc(50% - 750px);
+    top: 5px;
+    font-size: 40px;
+}
+
+.buscador{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: calc(50% - 430px);
+    top: 15px;
+    font-size: 26px;
+}
+
+.suscribirse{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: calc(50% + 430px);
+    top: 10px;
+    font-size: 22px;
+    line-height: 36px;
+}
+.registrarse{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: calc(50% + 540px);
+    top: 20px;
+    font-size: 16px;
+    display: flex;
+}
+.iniciarSesion{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: calc(50% + 650px);
+    top: 20px;
+    font-size: 16px;
+}
+

@@ -26,7 +26,7 @@
     top: 70px;    
     color: white;
     background: url(Imagenes/FondoAnimado1.gif);
-    background-size: 1515px 640px ;
+    background-size: 1650px 640px ;
     background-repeat: no-repeat;
 }
 
@@ -99,6 +99,7 @@
     height: 800px;
     display: inline-block;
     list-style: none;
+    color: white;
     background: url(Imagenes/Videojuegos1.jpg);
     background-size: 1515px 1000px;
     background-repeat: no-repeat;
@@ -112,6 +113,8 @@
     height: 300px;
     left: calc(50% - 650px);
     top: 150px;
+    background: url(Imagenes/Blog1.jpg);
+    background-size: 400px 300px;
 }
 .articulo2{border: 1px solid red;
     position: absolute;

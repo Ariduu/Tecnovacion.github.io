@@ -4,12 +4,11 @@
     left: 0;
 }
 
-.pieDePagina{
+.pieDePagina{border: 1px solid white;
     position: absolute;
     width: 1515px;
     height: 200px;
     top: 1615px;
-    border: 1px solid red;
     color: white;
     background: black;
     clear: both;

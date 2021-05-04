@@ -157,6 +157,7 @@
     font-size: 45px;
     padding-inline-start: 150px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: azure;
 }
 
 #usuario1{
@@ -182,9 +183,22 @@
      margin: auto;
 }
 
+.titulob{
+    color: rgb(255, 255, 255);
+    font-size: 170px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
 
-
-
+#informacionb{
+    height: 500px;
+    padding-inline-start: 500px;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: lavender;
+    text-align: left;
+}
 
 
 

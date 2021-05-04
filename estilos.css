@@ -11,6 +11,12 @@
     left: calc(50% - 1515px/2);
     display: block;
     text-align: center;
+    background: url(Imagenes/Binario3.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1515px;
+    background-attachment: fixed;
+    background-color: black;
 }
 
 .inicio{
@@ -20,7 +26,7 @@
     top: 70px;    
     color: white;
     background: url(Imagenes/FondoAnimado1.gif);
-    background-size: 1515px 640px;
+    background-size: 1515px 640px ;
     background-repeat: no-repeat;
 }
 
@@ -65,29 +71,39 @@
     margin-top: 8px;
 }
 
-.areas{border: 1px solid red;
+.panelMenu{border: 1px solid red;
     position: absolute;
+    top: 720px;   
+    left: -1px;
+}
+.areas{
     width: 1515px;
     height: 100px;
-    left: -1px;
-    top: 740px;
     color: white;
-    font-size: 30px;
-    background: linear-gradient(180deg, #910909 0%, rgba(107, 30, 30, 0) 100%);
 }
-
+.secciones{
+    height: 40px;
+}
+.bordeInferior{
+    height: 60px;
+    background: linear-gradient(180deg, #910909 0%, rgba(107, 30, 30, 0) 200%);
+}
 .areas li{border: 1px solid white;
+    font-size: 30px;
     list-style: none;
     display: inline-block;
 }
 
-.noticias{
-    position: absolute;
+.videojuegos{
     width: 1515px;
-    left: -1px;
-    top: 855px;
+    height: 800px;
     display: inline-block;
     list-style: none;
+    background: url(Imagenes/Videojuegos1.jpg);
+    background-size: 1515px 1000px;
+    background-repeat: no-repeat;
+    background-position: center -100px;
+    box-shadow: inset 0px 10px 20px #FFFFFF;
 }
 
 .articulo1{border: 1px solid red;
@@ -95,21 +111,25 @@
     width: 400px;
     height: 300px;
     left: calc(50% - 650px);
+    top: 150px;
 }
 .articulo2{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
     left: calc(50% - 200px);
+    top: 150px;
 }
 .articulo3{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
     left: calc(50% + 250px);
+    top: 150px;
 }
 .articulo4{border: 1px solid red;
     position: absolute;
+    margin-top: 150px;
     width: 400px;
     height: 300px;
     left: calc(50% - 650px);
@@ -120,17 +140,17 @@
     width: 400px;
     height: 300px;
     left: calc(50% - 200px);
-    top: 350px;
+    top: 500px;
 }
 .articulo6{border: 1px solid red;
     position: absolute;
     width: 400px;
     height: 300px;
     left: calc(50% + 250px);
-    top: 350px;
+    top: 500px;
 }
 .verTodo{
     position: absolute;
     left: calc(50% + 600px);
-    top: 670px;
+    top: 850px;
 }

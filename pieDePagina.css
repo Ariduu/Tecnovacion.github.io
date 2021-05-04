@@ -7,14 +7,10 @@
 .pieDePagina{
     position: absolute;
     width: 1515px;
-    height: 250px;
-    top: 1560px;
-    background: black;
+    height: 200px;
+    top: 1615px;
+    border: 1px solid red;
     color: white;
+    background: black;
     clear: both;
-}
-
-hr{
-    color: red;
-    top: 65px;
 }

@@ -13,7 +13,10 @@
 #segundotitulo{
     color: #14946D;
     font-size: 150px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-width: 1em; border-style: groove;border-color: rgb(199, 81, 81);
+    
+    
     
 }
 .titulodepag{
@@ -21,6 +24,7 @@
     font-size: 180px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     
 }
 
@@ -120,8 +124,8 @@
 .nombre {
     text-align: left;
     position: center;
-    width: 1800px;
-    height: 70px;
+    width: 100%;
+    height: 120px;
     top: 10px;
     left: calc(60% - 1400px/2 - 40px);
     background-color: black;

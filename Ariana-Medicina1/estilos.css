@@ -13,7 +13,7 @@
     position: absolute;
     width: 1500px;
     height: 170px;
-    font-size: 72px;
+    font-size: 36px;
     left: 0px;
     top: 0px;
     background: linear-gradient(180deg, #323D44 0%, rgba(0, 153, 254, 0) 100%);
@@ -33,36 +33,41 @@
     position: absolute;
     width: 1500px;
     height: 500px;
-    left: 0px;
     top: 885px;
     background: #387EB8;
 }
 
 .hola1 h2{
     position: absolute;
-    width: 713px;
+    width: 790px;
     height: 60px;
-    left: 0px;
+    left: 20px;
+    top: 20px;
+    line-height: 60px;
     background: rgba(116, 243, 243, 0.9);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
-.hola1 p{border: 1px solid greenyellow;
+.hola1 p{
     position: absolute;
     width: 1000px;
     height: 350px;
     left: 20px;
-    top: 70px;
+    top: 110px;
     text-align: left;
     font-size: 24px;
+    border-style: hidden;
 }
-.hola1 img{border: 1px solid greenyellow;
+.hola1 img{
     position: absolute;
     width: 400px;
     height: 350px;
     left: 1050px;
-    top: 92.5px;
-
+    top: 100px;
+    border-width: 10px rgb(255, 208, 0);
+    border-style: groove;
 }
+
 .hola2{border: 1px solid red;
     position: absolute;
     width: 1500px;

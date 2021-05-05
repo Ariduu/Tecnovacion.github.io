@@ -1,18 +1,22 @@
 *{
+    border: border-box;
     margin: 0;
     padding: 0;
-    left: 0;
 }
 
-.barraInicial{
-    text-align: center;
-    height: 60px;
-    background-color: black;
+header{ border: 1px solid white;
     color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 60px;
+    font-family: oswald, sans-serif;
 }
 
-.barraInicial li{border: 1px solid white;
+header ul{
     list-style: none;
-    display: inline-block;
 }
+
+header a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}
+

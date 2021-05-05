@@ -35,18 +35,22 @@ header a {
     font-size: 48px;
 }
 
+
+
 .botonContainer {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    right: 10px;
     z-index: -1;
 }
 
 .boton {
+    width: 0px;
+    height: 0px;
     background: #2071b2;
-    border-radius: 50px;
+    border-radius: 50%;
     cursor: pointer;
     top: 50%;
     left: 50%;
@@ -68,7 +72,9 @@ header a {
     z-index: 10;
 }
 
-.show boton {
+.show .boton {
+    width: 50px;
+    height: 50px;
     animation: popup .3s ease-in-out;
     z-index: 11;
 }
@@ -83,11 +89,11 @@ header a {
         height: 0px;
     }
     50%{
-        width: 80px;
-        height: 80px;
-    }
-    100%{
         width: 60px;
         height: 60px;
+    }
+    100%{
+        width: 50px;
+        height: 50px;
     }
 }

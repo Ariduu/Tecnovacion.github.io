@@ -37,4 +37,57 @@ header a {
 
 .botonContainer {
     position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    z-index: -1;
+}
+
+.boton {
+    background: #2071b2;
+    border-radius: 50px;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.boton i {
+    position: absolute;
+    font-size: 17px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: white;
+    transition: .2s;
+}
+
+.show {
+    z-index: 10;
+}
+
+.show boton {
+    animation: popup .3s ease-in-out;
+    z-index: 11;
+}
+
+.show i {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+    50%{
+        width: 80px;
+        height: 80px;
+    }
+    100%{
+        width: 60px
+        height: 60px;
+    }
 }

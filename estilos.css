@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-body{background-color: gray;
+body{background-color: rgb(187, 187, 187);
     /*background-image: url(Imagenes/CircuitBoard.gif);*/
     font-family: "Oswald", sans-serif;
     font-size: 16px;
@@ -16,11 +16,12 @@ body{background-color: gray;
     margin: auto;
 }
 
-.inicio{
+/* Portada principal */
+.inicio{border: 1px solid white;
     height: 640px;
     margin-top: 10px;
     color: white;
-    background: url(Imagenes/FondoAnimado1.gif) no-repeat center center/cover;
+    /*background: url(Imagenes/FondoAnimado1.gif) no-repeat center center/cover;*/
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -29,51 +30,31 @@ body{background-color: gray;
     text-align: center;
     margin-bottom: 20px;
 }
-
-.inicio img{
+.inicio img{border: 1px solid white;
     width: 500px;
     height: 250px;
-    margin-top: 30px;
 }
-
-.bienvenido{
-    position: absolute;
+.bienvenido{border: 1px solid white;
     width: 900px;
     margin-top: 50px;
-    left: calc(50% - 900px/2);;
-    top: 270px;
-    font-family: Quantico;
-    font-style: normal;
+    font-family: "Quantico", sans-serif;   
     font-weight: bold;
     font-size: 70px;
     letter-spacing: 0.7em;
 }
-
-.informacion{
-    position: absolute;
-    margin-top: 30px;
+.informacion{border: 1px solid white;
     width: 640px;
-    left: calc(50% - 630px/2);
-    top: 400px;
     font-size: 40px;
-    line-height: 38px;
 }
-
-.verMas{
-    position: absolute;
+.verMas{border: 1px solid white;
     width: 260px;
-    left: calc(50% - 260px/2);
-    top: 540px;
     font-size: 25px;
-    margin-bottom: 100px;
 }
-.verMas input{
-    margin-top: 8px;
+.verMas input{border: 1px solid white;
+    margin: 10px 0px;
 }
 
 .panelMenu{border: 1px solid red;
-    position: absolute;
-    top: 720px;   
     left: -1px;
 }
 .areas{
@@ -108,52 +89,28 @@ body{background-color: gray;
 }
 
 .articulo1{border: 1px solid red;
-    position: absolute;
     width: 400px;
     height: 300px;
-    left: calc(50% - 650px);
-    top: 150px;
     background: url(Imagenes/Blog1.jpg);
     background-size: 400px 300px;
 }
 .articulo2{border: 1px solid red;
-    position: absolute;
     width: 400px;
     height: 300px;
-    left: calc(50% - 200px);
-    top: 150px;
 }
 .articulo3{border: 1px solid red;
-    position: absolute;
     width: 400px;
     height: 300px;
-    left: calc(50% + 250px);
-    top: 150px;
 }
 .articulo4{border: 1px solid red;
-    position: absolute;
-    margin-top: 150px;
     width: 400px;
     height: 300px;
-    left: calc(50% - 650px);
-    top: 350px;
 }
 .articulo5{border: 1px solid red;
-    position: absolute;
     width: 400px;
     height: 300px;
-    left: calc(50% - 200px);
-    top: 500px;
 }
 .articulo6{border: 1px solid red;
-    position: absolute;
     width: 400px;
     height: 300px;
-    left: calc(50% + 250px);
-    top: 500px;
-}
-.verTodo{
-    position: absolute;
-    left: calc(50% + 600px);
-    top: 850px;
 }

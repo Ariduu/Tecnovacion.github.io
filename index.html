@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="barraInicial.css"> <!-- Barra de navegación -->
     <link rel="stylesheet" href="pieDePagina.css"> <!-- Pie de página -->
     <!-- Font Oswald -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap">
+    <!-- Font Quantico -->
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
@@ -22,28 +23,16 @@
         <header>
             <nav>
                 <ul>
-                    <li class="nombre">
-                        <a href="#"> TECNOVACIÓN </a>
-                    </li>
+                    <li class="nombre"><a href="index.html"> TECNOVACIÓN </a></li>
                 </ul>
                 <ul>
-                    <il>
-                        <i class="fa fa-search"></i>
-                    </il>
+                    <li class="buscador"><a href="#"> Buscador </a></li>
+                    <li><i class="fa fa-search"></i></li>
                 </ul>
                 <ul>
-                    <li class="buscador">
-                        <a href="#"> Buscador </a>
-                    </li>
-                    <li class="suscribirse">
-                        <a href="#"> Suscribirse </a>
-                    </li>
-                    <li class="registrarse">
-                        <a href="#"> Registrarse </a>
-                    </li>
-                    <li class="iniciarSesion">
-                        <a href="#"> Iniciar sesión </a>
-                    </li>
+                    <li class="suscribirse"><a href="#"> Suscribirse </a></li>
+                    <li class="registrarse"><a href="#"> Registrarse </a></li>
+                    <li class="iniciarSesion"><a href="#"> Iniciar sesión </a></li>
                 </ul>
             </nav>
         </header>
@@ -59,11 +48,11 @@
         </div>
 
         <div class="panelMenu">
-            <nav class="areas">
+            <nav>
                 <div class="secciones">
                     <ul>
                         <li class="videojuegosBoton">
-                            <form action="" method="GET">
+                            <form action="http://facebook.com/" method="GET">
                                 <input type="button" value="Videojuegos">
                             </form>
                         </li>
@@ -78,7 +67,7 @@
                             </form>
                         </li>
                         <li class="medicinaBoton">
-                            <form action="" method="GET">
+                            <form action="index.html" method="">
                                 <input type="button" value="Medicina">
                             </form>
                         </li>
@@ -124,6 +113,11 @@
             </footer>
         </div>
     </div>
+    <div class="botonContainer">
+        <div class="boton">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
-
 </html>

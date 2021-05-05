@@ -4,19 +4,37 @@
     padding: 0;
 }
 
-header{ border: 1px solid white;
-    color: white;
+header nav {background-color: black;border: 1px solid white;
     height: 60px;
-    font-family: oswald, sans-serif;
+    padding: 5px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
 }
 
-header ul{
+header ul {
+    display: flex;
     list-style: none;
 }
 
-header a{
-    border: 1px solid white;
+header li {border: 1px solid white;
+    padding: 10px;
+    font-size: 17px;
+}
+
+header a {
     text-decoration: none;
     color: white;
 }
 
+.nombre {
+    padding: 0 10px;
+    font-family: "Quantico", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.botonContainer {
+    position: fixed;
+}

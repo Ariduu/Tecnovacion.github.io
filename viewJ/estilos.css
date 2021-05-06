@@ -11,10 +11,10 @@
 
 }
 #segundotitulo{
-    color: #eeff00;
+    color: #14946D;
     font-size: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    border-width: 1em; border-style: groove;border-color: rgb(199, 81, 81);
     
     
     

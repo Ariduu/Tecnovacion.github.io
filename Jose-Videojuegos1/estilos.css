@@ -222,16 +222,23 @@
 }
 
 .tabladeplataformas{
-    font-size: 48px;
+    font-size: 65px;
     padding-inline-start: 800px;
- 
+    color: rgb(210, 214, 214);
+
 
 }
 
 
 .plataformas{
-align-items: center;
+    align-items: center;
+    
 }
 
-
+table, th ,td {
+    border: 0.5px solid rgb(80, 80, 80);
+}
+td, th {
+    padding: 15px;
+}
 

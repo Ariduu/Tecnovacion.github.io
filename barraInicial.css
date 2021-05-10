@@ -1,9 +1,4 @@
-*{
-    border: border-box;
-    margin: 0;
-    padding: 0;
-}
-
+/* Contenedor de la barra inicial */
 header nav {background-color: black;border: 1px solid white;
     height: 60px;
     padding: 5px 0;
@@ -13,6 +8,7 @@ header nav {background-color: black;border: 1px solid white;
     align-items: center;  
 }
 
+/* Barra inicial */
 header ul {
     display: flex;
     list-style: none;
@@ -28,15 +24,19 @@ header a {
     color: white;
 }
 
+/* Tecnovacion */
 .nombre {
     padding: 0 10px;
     font-family: "Quantico", sans-serif;
     font-weight: bold;
     font-size: 48px;
 }
+.nombre:hover {
+    color: aqua;
+    background-color: rgb(51, 51, 51);
+}
 
-
-
+/* Boton flotante */
 .botonContainer {
     position: fixed;
     width: 50px;
@@ -45,7 +45,6 @@ header a {
     right: 10px;
     z-index: -1;
 }
-
 .boton {
     width: 0px;
     height: 0px;
@@ -57,7 +56,6 @@ header a {
     transform: translate(-50%, -50%);
     z-index: -1;
 }
-
 .boton i {
     position: absolute;
     font-size: 17px;
@@ -68,21 +66,19 @@ header a {
     transition: .2s;
 }
 
+/* Efecto de boton flotante */
 .show {
     z-index: 10;
 }
-
 .show .boton {
     width: 50px;
     height: 50px;
     animation: popup .3s ease-in-out;
     z-index: 11;
 }
-
 .show i {
     transform: translate(-50%, -50%) scale(1);
 }
-
 @keyframes popup {
     0%{
         width: 0px;

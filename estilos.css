@@ -4,24 +4,25 @@
     padding: 0;
 }
 
-body{background-color: gray;
+body{background-color: rgb(187, 187, 187);
     /*background-image: url(Imagenes/CircuitBoard.gif);*/
     font-family: "Oswald", sans-serif;
     font-size: 16px;
 }
 
 .todo{
+    position: absolute;
     width: 100%;
-    height: 2000px;
+    height: 100%;
     margin: auto;
 }
 
-.inicio{
-    height: 640px;
+/* Portada principal */
+.inicio{border: 1px solid white;
+    height: 620px;
     margin-top: 10px;
     color: white;
-    background: url(Imagenes/FondoAnimado1.gif) no-repeat center center/cover;
-    padding-bottom: 50px;
+    background: url(Imagenes/FondoAnimado1.gif) no-repeat center center/cover;    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -29,55 +30,38 @@ body{background-color: gray;
     text-align: center;
     margin-bottom: 20px;
 }
-
-.inicio img{
-    width: 500px;
-    height: 250px;
-    margin-top: 30px;
+.inicio img{border: 1px solid white;
+    width: 30%;
+    height: 50%;
+    margin-top: 10px;
+    background: url(Imagenes/Logo1.png) no-repeat center center/cover;
+    background-size: 100% 100%;
 }
-
-.bienvenido{
-    position: absolute;
-    width: 900px;
-    margin-top: 50px;
-    left: calc(50% - 900px/2);;
-    top: 270px;
-    font-family: Quantico;
-    font-style: normal;
+.bienvenido{border: 1px solid white;
+    width: 26%;
+    margin-top: 45px;
+    font-family: "Quantico", sans-serif;   
     font-weight: bold;
-    font-size: 70px;
-    letter-spacing: 0.7em;
+    font-size: 4vw;
+    letter-spacing: 3px;
 }
-
 .informacion{
-    position: absolute;
-    margin-top: 30px;
-    width: 640px;
-    left: calc(50% - 630px/2);
-    top: 400px;
+    width: 700px;
     font-size: 40px;
-    line-height: 38px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
 }
-
 .verMas{
-    position: absolute;
     width: 260px;
-    left: calc(50% - 260px/2);
-    top: 540px;
-    font-size: 25px;
-    margin-bottom: 100px;
+    font-size: 16px;
+    margin-top: 20px;
 }
-.verMas input{
-    margin-top: 8px;
+.verMas input {
+    margin: 0px 20px;
 }
 
-.panelMenu{border: 1px solid red;
-    position: absolute;
-    top: 720px;   
-    left: -1px;
-}
 .areas{
-    width: 1515px;
     height: 100px;
     color: white;
 }
@@ -95,65 +79,41 @@ body{background-color: gray;
 }
 
 .videojuegos{
-    width: 1515px;
+    width: 100%;
     height: 800px;
     display: inline-block;
     list-style: none;
     color: white;
     background: url(Imagenes/Videojuegos1.jpg);
-    background-size: 1515px 1000px;
+    background-size: 100% 1000px;
     background-repeat: no-repeat;
     background-position: center -100px;
     box-shadow: inset 0px 10px 20px #FFFFFF;
 }
 
 .articulo1{border: 1px solid red;
-    position: absolute;
     width: 400px;
     height: 300px;
-    left: calc(50% - 650px);
-    top: 150px;
     background: url(Imagenes/Blog1.jpg);
     background-size: 400px 300px;
 }
 .articulo2{border: 1px solid red;
-    position: absolute;
     width: 400px;
     height: 300px;
-    left: calc(50% - 200px);
-    top: 150px;
 }
 .articulo3{border: 1px solid red;
-    position: absolute;
     width: 400px;
     height: 300px;
-    left: calc(50% + 250px);
-    top: 150px;
 }
 .articulo4{border: 1px solid red;
-    position: absolute;
-    margin-top: 150px;
     width: 400px;
     height: 300px;
-    left: calc(50% - 650px);
-    top: 350px;
 }
 .articulo5{border: 1px solid red;
-    position: absolute;
     width: 400px;
     height: 300px;
-    left: calc(50% - 200px);
-    top: 500px;
 }
 .articulo6{border: 1px solid red;
-    position: absolute;
     width: 400px;
     height: 300px;
-    left: calc(50% + 250px);
-    top: 500px;
-}
-.verTodo{
-    position: absolute;
-    left: calc(50% + 600px);
-    top: 850px;
 }

@@ -9,7 +9,7 @@ h1 {
     font-size: 45px;
     font-family: sans-serif;
     font-weight: bold;
-    color: black;
+    color: darkturquoise;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ header,section, footer, aside, nav, article{
 .agrupar {
     border-image: none;
     margin: auto;
-    border: 1px black;
+    border: 1px darkcyan;
     width: 1000px;
     float: left;
     
@@ -48,7 +48,7 @@ header {
 }
 .menu li {
     list-style: none; 
-    color: black;
+    color: lawngreen;
 }
 
 .primero {
@@ -87,6 +87,11 @@ article footer {
 }
 
 p {
-    color: black;
+    color: lawngreen;
+    border: 110px;
+}
+fondoro {
+    font-size: 100%;
+    margin: 100%;
 }
 

@@ -1,26 +1,27 @@
 *{
-    border: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{background-color: rgb(187, 187, 187);
-    /*background-image: url(Imagenes/CircuitBoard.gif);*/
+/* Cuerpo */
+body{
+    background-color: #053762;
     font-family: "Oswald", sans-serif;
     font-size: 16px;
 }
-
-.todo{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: auto;
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
 }
 
 /* Portada principal */
-.inicio{border: 1px solid white;
-    height: 620px;
-    margin-top: 10px;
+.inicio{
+    height: 650px;
+    margin: 10px 0;
     color: white;
     background: url(Imagenes/FondoAnimado1.gif) no-repeat center center/cover;    
     display: flex;
@@ -30,14 +31,13 @@ body{background-color: rgb(187, 187, 187);
     text-align: center;
     margin-bottom: 20px;
 }
-.inicio img{border: 1px solid white;
+.inicio img{
     width: 30%;
-    height: 50%;
-    margin-top: 10px;
-    background: url(Imagenes/Logo1.png) no-repeat center center/cover;
+    height: 40%;
+    margin-top: 10px;   
     background-size: 100% 100%;
 }
-.bienvenido{border: 1px solid white;
+.bienvenido{
     width: 26%;
     margin-top: 45px;
     font-family: "Quantico", sans-serif;   
@@ -47,73 +47,94 @@ body{background-color: rgb(187, 187, 187);
 }
 .informacion{
     width: 700px;
-    font-size: 40px;
+    font-size: 2vw;
     line-height: 40px;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
 .verMas{
     width: 260px;
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 20px;
 }
 .verMas input {
     margin: 0px 20px;
 }
 
-.areas{
-    height: 100px;
-    color: white;
+/* Menu banner */
+.secciones ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.secciones{
-    height: 40px;
+.secciones li {
+    padding: 0 5px;
+    margin: 0 5px;
+    border-radius: 20px;
+    font-size: 20px;
 }
-.bordeInferior{
-    height: 60px;
-    background: linear-gradient(180deg, #910909 0%, rgba(107, 30, 30, 0) 200%);
+.videojuegosBoton {
+    background-color: #910909;
 }
-.areas li{border: 1px solid white;
-    font-size: 30px;
-    list-style: none;
-    display: inline-block;
+.iaBoton {
+    background-color: green;
 }
-
-.videojuegos{
-    width: 100%;
-    height: 800px;
-    display: inline-block;
-    list-style: none;
-    color: white;
-    background: url(Imagenes/Videojuegos1.jpg);
-    background-size: 100% 1000px;
-    background-repeat: no-repeat;
-    background-position: center -100px;
+.musicaBoton {
+    background-color: green;
+}
+.medicinaBoton {
+    background-color: green;
+}
+.videojuegosBoton:hover, .iaBoton:hover, .musicaBoton:hover, .medicinaBoton:hover {
+    font-size: 22px;
+    border: 1px solid white;
     box-shadow: inset 0px 10px 20px #FFFFFF;
 }
+.bordeInferior{
+    height: 30px;
+    background: linear-gradient(180deg, #910909 20%, rgb(255, 255, 255) 120%);
+}
 
-.articulo1{border: 1px solid red;
-    width: 400px;
-    height: 300px;
-    background: url(Imagenes/Blog1.jpg);
-    background-size: 400px 300px;
+/* Noticias de videojuegos */
+.videojuegos {
+    color: white;
+    background: url(Imagenes/Videojuegos1.jpg) no-repeat center center/cover;
+    box-shadow: inset 0px 10px 20px #FFFFFF;
+    text-align: center;
 }
-.articulo2{border: 1px solid red;
-    width: 400px;
-    height: 300px;
+.videojuegos section {
+    padding: 60px 60px 0px 60px;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
-.articulo3{border: 1px solid red;
-    width: 400px;
+.videojuegos article { 
     height: 300px;
+    border: 1px solid white; 
+    background-size: 100% 100%;
+    border-radius: 25px;
 }
-.articulo4{border: 1px solid red;
-    width: 400px;
-    height: 300px;
+.articulo1{ 
+    background-image: url(Imagenes/Blog1.jpg);
 }
-.articulo5{border: 1px solid red;
-    width: 400px;
-    height: 300px;
+.articulo2, .articulo3, .articulo4, .articulo5, .articulo6 {
+    background: url(Imagenes/PublicaAqui-videojuegos.jpg);
 }
-.articulo6{border: 1px solid red;
-    width: 400px;
-    height: 300px;
+.articulo1:hover, .articulo2:hover, .articulo3:hover, .articulo4:hover, .articulo5:hover, .articulo6:hover { 
+    border: 3px solid rgb(0, 247, 255);
+    box-shadow: inset 0px 0px 100px 25px rgb(0, 247, 255);
+}
+
+.verTodo {padding: 40px;}
+.verTodo a{
+    padding: 0 10px;
+    border-radius: 75px;
+    border: 1px solid rgb(165, 165, 165);
+    background-color: rgb(97, 97, 97);
+    font-size: 20px;
+}
+.verTodo a:hover {
+    border: 3px solid white;
+    box-shadow: inset 0px 10px 20px #FFFFFF;
 }

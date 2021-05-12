@@ -14,12 +14,9 @@
 #segundotitulo{
     color: #e0e0e0;
     font-size: 150px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-    
-    
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
+
 .titulodepag{
     color: rgb(255, 255, 255);
     font-size: 180px;
@@ -222,8 +219,8 @@
 }
 
 .titulob{
-    color: rgb(255, 255, 255);
-    font-size: 170px;
+    color: #5aa9dd9d;
+    font-size: 175px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 0px;
@@ -264,27 +261,25 @@
 
 table {
     width: 100%;
-    text-align: left;
+    text-align: justify;
     border-collapse: collapse;
     margin: 0 0 1em 0;
     caption-side: top;
+    color: rgb(122, 136, 214);
      }
      
 caption, td, th {
-    padding: 0.1em;
+    padding: 0.2em;
+
 
     }   
 
 th, td {
-    border-bottom: 1px solid #999;
-    width: 25%;
+    border-bottom: 0.5px solid #999;
+    width: 60px;
     height: 150px;
      }
      
-caption {
-    font-weight: bold;
-    font-style: italic;
-     }
 
 
 

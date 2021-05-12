@@ -1,7 +1,15 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
 /* Contenedor de la barra inicial */
-header nav {background-color: black;border: 1px solid white;
+header nav {
+    background-color: black;
     height: 60px;
-    padding: 5px 0;
     color: white;
     display: flex;
     justify-content: space-between;  
@@ -11,29 +19,35 @@ header nav {background-color: black;border: 1px solid white;
 /* Barra inicial */
 header ul {
     display: flex;
-    list-style: none;
 }
 
-header li {border: 1px solid white;
-    padding: 10px;
-    font-size: 17px;
+header li a {
+    margin: 0 10px;
+}
+header li a:hover {
+    border-bottom: 3px solid white;
 }
 
-header a {
-    text-decoration: none;
-    color: white;
+/* Buscador */
+header li input {
+    width: 500px; 
+    height: 25px;
+    border-radius: 50px;
+    color: rgb(190, 190, 190);
+}
+header li i {
+    margin-top: 5px;
 }
 
 /* Tecnovacion */
 .nombre {
-    padding: 0 10px;
+    height: 60px;
     font-family: "Quantico", sans-serif;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 46px;
 }
 .nombre:hover {
-    color: aqua;
-    background-color: rgb(51, 51, 51);
+    background-color: #313131;
 }
 
 /* Boton flotante */
@@ -46,24 +60,19 @@ header a {
     z-index: -1;
 }
 .boton {
-    width: 0px;
-    height: 0px;
     background: #2071b2;
     border-radius: 50%;
     cursor: pointer;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(10%, -50%);
     z-index: -1;
 }
 .boton i {
     position: absolute;
-    font-size: 17px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     color: white;
-    transition: .2s;
+    transition: .3s;
 }
 
 /* Efecto de boton flotante */

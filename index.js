@@ -13,6 +13,14 @@ document.querySelector('.botonContainer')
 .addEventListener('click', () => {  
   window.scrollTo({
     top: 0,
-    behavior: 'smooth',
+    behavior: 'smooth'
   })
+})
+
+document.querySelector('.verMas input')
+.addEventListener('click', () => {
+  window.scrollTo({
+    top: 740,
+    behavior: "smooth"
+  })  
 })

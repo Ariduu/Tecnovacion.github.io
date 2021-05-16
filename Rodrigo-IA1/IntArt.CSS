@@ -1,5 +1,5 @@
 body {
-    background-image: url(grupal/img/bbbefc6d216d13f2c602e8bed4af396b.jpg);
+    background-image: url(grupal/img/sFaoXq3.gif);
     margin:0;
     padding: 0; 
     width: 100%;
@@ -11,6 +11,7 @@ body {
 h{ 
     font-size: 40px;
     color: white;
+    
 }
 
 h1 {
@@ -52,12 +53,9 @@ header,section, footer, aside, nav, article{
     float: left;
     
 }
+
 header {
-    background: grey;
-}
-.menu li {
-    list-style: none; 
-    color: lawngreen;
+    background: rgb(17, 16, 16) ;
 }
 
 .primero {
@@ -72,6 +70,7 @@ header {
     
 }
 .columna {
+    
     width: 400px;
     float: right;
     text-align: center;
@@ -79,6 +78,7 @@ header {
     
 }
 .columna2 {
+      
       width: 400px;
       float: left;
       text-align: center;
@@ -87,8 +87,6 @@ header {
 .pie {
     clear: both;
     text-align: right;
-    
-
 }
 
 article footer {
@@ -98,16 +96,15 @@ article footer {
 p {
     color: lawngreen;
     border: 110px;
-}
-fondoro {
-    font-size: 100%;
-    margin: 100%;
+    font-family: sans-serif;
+    
 }
 
-.fondo{
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+.menu li {
+    font-family: sans-serif;
+    list-style: none; 
+    color: lawngreen;
 }
+
+
 

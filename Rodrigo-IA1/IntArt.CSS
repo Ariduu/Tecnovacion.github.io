@@ -1,20 +1,38 @@
-body {mask-image: image(grupal/img/IntArt);}
+body {
+    background-image: url(grupal/img/sFaoXq3.gif);
+    margin:0;
+    padding: 0; 
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 
 h{ 
     font-size: 40px;
     color: white;
+    
 }
 
 h1 {
     font-size: 45px;
     font-family: sans-serif;
     font-weight: bold;
-    color: black;
+    color: darkturquoise;
     text-align: center;
 }
 
 img {
     width: 200px;
+    border: cyan solid 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
 }
 h2 {
     font-family: sans-serif;
@@ -30,17 +48,14 @@ header,section, footer, aside, nav, article{
 .agrupar {
     border-image: none;
     margin: auto;
-    border: 1px black;
+    border: 1px darkcyan;
     width: 1000px;
     float: left;
     
 }
+
 header {
-    background: black;
-}
-.menu li {
-    list-style: none; 
-    color: black;
+    background: rgb(17, 16, 16) ;
 }
 
 .primero {
@@ -55,23 +70,23 @@ header {
     
 }
 .columna {
+    
     width: 400px;
     float: right;
     text-align: center;
-    margin: 25px 5px;
+    margin: 20px 70px;
     
 }
 .columna2 {
+      
       width: 400px;
       float: left;
       text-align: center;
-      margin: 25px 90px;
+      margin: 20px 30px;
 }
 .pie {
     clear: both;
     text-align: right;
-    
-
 }
 
 article footer {
@@ -79,6 +94,17 @@ article footer {
 }
 
 p {
-    color: greenyellow;
+    color: lawngreen;
+    border: 110px;
+    font-family: sans-serif;
+    
 }
+
+.menu li {
+    font-family: sans-serif;
+    list-style: none; 
+    color: lawngreen;
+}
+
+
 

@@ -1,159 +1,135 @@
 *{
-    border: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{background-color: gray;
-    /*background-image: url(Imagenes/CircuitBoard.gif);*/
+/* Cuerpo */
+body{
+    background-color: #053762;
     font-family: "Oswald", sans-serif;
     font-size: 16px;
 }
-
-.todo{
-    width: 100%;
-    height: 2000px;
-    margin: auto;
+a { color: white; text-decoration: none; }
+ul {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.inicio{
-    height: 640px;
-    margin-top: 10px;
+/* Portada principal */
+.inicio {
+    height: 650px;
+    margin: 10px 0;
     color: white;
-    background: url(Imagenes/FondoAnimado1.gif) no-repeat center center/cover;
-    padding-bottom: 50px;
+    background: url(Imagenes/FondoAnimado1.gif) no-repeat center center/cover;    
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
 }
+    .inicio img{
+        width: 500px;
+        height: 300px;
+        background-size: 100% 100%;
+    }
+    .bienvenido{
+        width: 880px;
+        margin-top: 10px;
+        font-family: "Quantico", sans-serif;   
+        font-weight: bold;
+        font-size: 72px;
+        letter-spacing: 50px;
+    }
+    .informacion{
+        width: 700px;
+        font-size: 42px;
+        line-height: 42px;
+        margin-bottom: 80px;
+        letter-spacing: 1px;
+    }
+    .verMas{
+        width: 260px;
+    }
+    .verMas input {
+        margin: 0px 20px;
+    }
 
-.inicio img{
-    width: 500px;
-    height: 250px;
-    margin-top: 30px;
-}
+/* Menu banner */
 
-.bienvenido{
-    position: absolute;
-    width: 900px;
-    margin-top: 50px;
-    left: calc(50% - 900px/2);;
-    top: 270px;
-    font-family: Quantico;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 70px;
-    letter-spacing: 0.7em;
+.secciones ul{border: 1px solid white;
+    
 }
-
-.informacion{
-    position: absolute;
-    margin-top: 30px;
-    width: 640px;
-    left: calc(50% - 630px/2);
-    top: 400px;
-    font-size: 40px;
-    line-height: 38px;
+.secciones li {
+    padding: 0 5px;
+    margin: 0 5px;
+    border-radius: 20px;
+    font-size: 20px;
 }
-
-.verMas{
-    position: absolute;
-    width: 260px;
-    left: calc(50% - 260px/2);
-    top: 540px;
-    font-size: 25px;
-    margin-bottom: 100px;
+.videojuegosBoton {
+    background-color: #910909;
 }
-.verMas input{
-    margin-top: 8px;
+.iaBoton {
+    background-color: green;
 }
-
-.panelMenu{border: 1px solid red;
-    position: absolute;
-    top: 720px;   
-    left: -1px;
+.musicaBoton {
+    background-color: green;
 }
-.areas{
-    width: 1515px;
-    height: 100px;
-    color: white;
+.medicinaBoton {
+    background-color: green;
 }
-.secciones{
-    height: 40px;
-}
-.bordeInferior{
-    height: 60px;
-    background: linear-gradient(180deg, #910909 0%, rgba(107, 30, 30, 0) 200%);
-}
-.areas li{border: 1px solid white;
-    font-size: 30px;
-    list-style: none;
-    display: inline-block;
-}
-
-.videojuegos{
-    width: 1515px;
-    height: 800px;
-    display: inline-block;
-    list-style: none;
-    color: white;
-    background: url(Imagenes/Videojuegos1.jpg);
-    background-size: 1515px 1000px;
-    background-repeat: no-repeat;
-    background-position: center -100px;
+.videojuegosBoton:hover, .iaBoton:hover, .musicaBoton:hover, .medicinaBoton:hover {
+    font-size: 22px;
+    border: 1px solid white;
     box-shadow: inset 0px 10px 20px #FFFFFF;
 }
+.bordeInferior{
+    height: 30px;
+    background: linear-gradient(180deg, #910909 20%, rgb(255, 255, 255) 120%);
+}
 
-.articulo1{border: 1px solid red;
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: calc(50% - 650px);
-    top: 150px;
-    background: url(Imagenes/Blog1.jpg);
-    background-size: 400px 300px;
+/* Noticias de videojuegos */
+.videojuegos {
+    color: white;
+    background: url(Imagenes/Videojuegos1.jpg) no-repeat center center/cover;
+    box-shadow: inset 0px 10px 20px #FFFFFF;
+    text-align: center;
 }
-.articulo2{border: 1px solid red;
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: calc(50% - 200px);
-    top: 150px;
+.videojuegos section {
+    padding: 60px 60px 0px 60px;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
-.articulo3{border: 1px solid red;
-    position: absolute;
-    width: 400px;
+.videojuegos article { 
     height: 300px;
-    left: calc(50% + 250px);
-    top: 150px;
+    border: 1px solid white; 
+    background-size: 100% 100%;
+    border-radius: 25px;
 }
-.articulo4{border: 1px solid red;
-    position: absolute;
-    margin-top: 150px;
-    width: 400px;
-    height: 300px;
-    left: calc(50% - 650px);
-    top: 350px;
+.articulo1{ 
+    background-image: url(Imagenes/Blog1.jpg);
 }
-.articulo5{border: 1px solid red;
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: calc(50% - 200px);
-    top: 500px;
+.articulo2, .articulo3, .articulo4, .articulo5, .articulo6 {
+    background: url(Imagenes/PublicaAqui-videojuegos.jpg);
 }
-.articulo6{border: 1px solid red;
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: calc(50% + 250px);
-    top: 500px;
+.articulo1:hover, .articulo2:hover, .articulo3:hover, .articulo4:hover, .articulo5:hover, .articulo6:hover { 
+    border: 3px solid rgb(0, 247, 255);
+    box-shadow: inset 0px 0px 100px 25px rgb(0, 247, 255);
 }
-.verTodo{
-    position: absolute;
-    left: calc(50% + 600px);
-    top: 850px;
+
+.verTodo {padding: 40px;}
+.verTodo a{
+    padding: 0 10px;
+    border-radius: 75px;
+    border: 1px solid rgb(165, 165, 165);
+    background-color: rgb(97, 97, 97);
+    font-size: 20px;
+}
+.verTodo a:hover {
+    border: 3px solid white;
+    box-shadow: inset 0px 10px 20px #FFFFFF;
 }

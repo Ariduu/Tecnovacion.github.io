@@ -44,7 +44,7 @@ header,section, footer, aside, nav, article{
     
 }
 header {
-    background: black;
+    background: grey;
 }
 .menu li {
     list-style: none; 

@@ -44,6 +44,8 @@ ul {
         font-weight: bold;
         font-size: 72px;
         text-shadow: 0 0 10px rgba(0, 185, 200), 0 0 0 white;
+    }
+    .bienvenido:hover {
         background: radial-gradient(60% 20% at 50% 50%, rgba(0, 185, 200, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
     }
     .bienvenido li {

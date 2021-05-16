@@ -69,13 +69,13 @@ header li i {
     }
         /* iniciarSesion */
     .iniciarSesion { 
-        color: rgb(0, 150, 0);
-        border: 3px solid rgb(0, 200, 0);
-        box-shadow: inset 0px 0px 7px rgb(0, 150, 0);
+        color: rgb(0, 150, 200);
+        border: 3px solid rgb(0, 150, 200);
+        box-shadow: inset 0px 0px 7px rgb(0, 150, 200);
     }
     .iniciarSesion:hover {
         color: white;
-        background: linear-gradient(180deg, rgb(0, 150, 0) 100%, rgb(0, 167, 167) 0%);
+        background: linear-gradient(180deg, rgb(0, 150, 200) 100%, rgb(0, 167, 167) 0%);
         box-shadow: inset 0px 3px 5px white;
         text-shadow: 1px 1px 0px black;
     }

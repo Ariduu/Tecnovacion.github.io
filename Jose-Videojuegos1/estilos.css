@@ -170,7 +170,7 @@
 
 #videot{
     width: 2800px;
-    height: 1000px;
+    height: 1400px;
     padding-inline-start: 400px;
     margin-top: 90px;
     
@@ -225,7 +225,7 @@
 }
 
 #informacionb{
-    height: 800px;
+    height: 850px;
     padding-inline-start: 200px;
     font-size: 60px;
     font-family: 'Roboto Mono', monospace;

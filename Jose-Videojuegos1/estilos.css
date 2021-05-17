@@ -13,12 +13,12 @@
 #segundotitulo{
     color: #e0e0e0;
     font-size: 150px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Source Code Pro', monospace; 
     text-align: center;
 }
 
 .titulodepag{
-    color: rgb(255, 255, 255);
+    color: #e7e5e5;
     font-size: 120px;
     text-align: center;
     font-family: 'Stalinist One', cursive;
@@ -149,24 +149,24 @@
     height: 120px;
     top: 10px;
     left: calc(60% - 1400px/2 - 40px);
-    background-color: black;
+    background-color: black; 
     color: rgb(255, 255, 255);
     font-size: 60px;
     mix-blend-mode: normal;}
 
 
 
-.comentario{
+.textoinf2{
 
-    height: 630px;
+    height: 600px;
     padding-inline-start: 500px;
     font-size: 60px;
     font-family: 'Roboto Mono', monospace;
     color: lavender;
     margin: 50px;
     margin-bottom: 100px;
+    text-align: justify;
   
-
 }
 
 #videot{
@@ -201,31 +201,31 @@
 }
 
 
-.texto{
+.copy{
     color: rgb(230, 236, 236);
     text-align: right;
     font-style: initial;
-    font-size: 50px;
-
+    font-size: 45px;    
+    font-family: fantasy;
 }
 
 .contenedor{
      width: 80%;
      margin: auto;
-    
      
 }
 
 .titulob{
-    color: #5aa9dd9d;
+    color: #ffffffbd;
     font-size: 90px;
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Code Pro', monospace;            
+    width: 100%;
     
 }
 
 #informacionb{
-    height: 850px;
+    height: 740px;
     padding-inline-start: 200px;
     font-size: 60px;
     font-family: 'Roboto Mono', monospace;
@@ -237,6 +237,7 @@
 
 
 #imgtkn{
+
     width: 40%;
     height: 40%;
     padding-top: 40px;
@@ -257,7 +258,7 @@
 }
 
 
-table {
+table{
     width: 100%;
     text-align: justify;
     border-collapse: collapse;
@@ -287,7 +288,12 @@ th, td {
     
 }
 
-
+#prueba{
+    text-align: center;
+    font-size: 150px;
+    color: rgb(26, 90, 228);
+    font-family: 'Source Code Pro', monospace;  
+}
 
 
 

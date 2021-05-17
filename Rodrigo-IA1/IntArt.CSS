@@ -56,6 +56,11 @@ header,section, footer, aside, nav, article{
 
 header {
     background: rgb(17, 16, 16) ;
+    margin: auto;
+    text-align: left;
+    width: 800px;
+    height: 70px;
+    border: teal solid;
 }
 
 .primero {
@@ -104,6 +109,11 @@ p {
     font-family: sans-serif;
     list-style: none; 
     color: lawngreen;
+}
+
+.texto {
+    width: 75%;
+    margin: auto;
 }
 
 

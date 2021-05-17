@@ -9,7 +9,6 @@
     transform: translateY(-3px) scale(1.05);
     border-radius: 21px;   
     
-
 }
 #segundotitulo{
     color: #e0e0e0;
@@ -19,10 +18,10 @@
 
 .titulodepag{
     color: rgb(255, 255, 255);
-    font-size: 180px;
+    font-size: 120px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: 'Stalinist One', cursive;
+    padding-top: 200px;
     
 }
 
@@ -135,7 +134,7 @@
 
 .tek3nfondo{
     width: 100%;
-    height: 1800px;
+    height: 2000px;
     background-repeat: no-repeat;
     background-size: cover;
     display: block ;
@@ -158,13 +157,14 @@
 
 .comentario{
 
-    height: 500px;
+    height: 630px;
     padding-inline-start: 500px;
     font-size: 60px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: lavender;
-    margin: 70px;
-    margin-bottom: 230px;
+    margin: 50px;
+    margin-bottom: 100px;
+  
 
 }
 
@@ -177,10 +177,10 @@
 }
 
 .textoinf{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     float: left;
-    margin-bottom: 90px;
-    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 
 }
 
@@ -212,26 +212,26 @@
 .contenedor{
      width: 80%;
      margin: auto;
-
+    
      
 }
 
 .titulob{
     color: #5aa9dd9d;
-    font-size: 175px;
+    font-size: 90px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 0px;
-    margin-top: 0px;
+    font-family: 'Source Code Pro', monospace;
+    
 }
 
 #informacionb{
-    height: 500px;
+    height: 800px;
     padding-inline-start: 200px;
     font-size: 60px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: lavender;
     text-align: left;
+    padding-top: 100px;
     
 }
 
@@ -239,16 +239,14 @@
 #imgtkn{
     width: 40%;
     height: 40%;
+    padding-top: 40px;
 
 }
 
 .tabladeplataformas{
     font-size: 65px;
     padding-inline-start: 800px;
-    color: rgb(210, 214, 214);
     float: inline-start;
-
-
 }
 
 
@@ -279,6 +277,7 @@ th, td {
     height: 150px;
      }
      
+
 #gift{
     padding-inline-start: 90%;
     width: 500px;

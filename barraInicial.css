@@ -1,3 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a { color: white; text-decoration: none; }
+ul {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Contenedor de la barra inicial */
 header nav {
     background-color: black;
@@ -38,7 +51,6 @@ header li i {
 }
     .nav-end a { 
         margin: 0 5px;
-        background-color: white;
         padding: 0 5px;
         border-radius: 25px;
     }
@@ -46,37 +58,31 @@ header li i {
     .suscribirse {
         font-size: 22px;
         color: gold;
-        border: 3px solid gold;
+        border: 2px solid gold;
         text-shadow: 1.5px 1.5px 0px black;
         box-shadow: inset 0px 0px 7px gold;
     }
     .suscribirse:hover {
-        color: white;
-        background: linear-gradient(180deg, gold 100%, rgba(187, 178, 0, 0.8) 0%);
-        box-shadow: inset 0px 3px 5px white;
+        box-shadow: inset 0px 0px 20px gold;
     }
         /* registrarse */
     .registrarse { 
-        color: rgb(200, 0, 0);
-        border: 3px solid rgb(200, 0, 0);
+        border: 2px solid;
         box-shadow: inset 0px 0px 7px rgb(200, 0, 0);
     }
     .registrarse:hover {
-        color: white;
-        background: linear-gradient(180deg, rgb(200, 0, 0) 100%, #A30000 0%);
-        box-shadow: inset 0px 3px 5px white;
+        color: rgb(200, 0, 0);
+        box-shadow: inset 0px 0px 20px rgb(200, 0, 0);
         text-shadow: 1px 1px 0px black;
     }
         /* iniciarSesion */
     .iniciarSesion { 
-        color: rgb(0, 150, 0);
-        border: 3px solid rgb(0, 200, 0);
-        box-shadow: inset 0px 0px 7px rgb(0, 150, 0);
+        border: 2px solid ;
+        box-shadow: inset 0px 0px 7px rgb(0, 150, 200);
     }
     .iniciarSesion:hover {
-        color: white;
-        background: linear-gradient(180deg, rgb(0, 150, 0) 100%, rgb(0, 167, 167) 0%);
-        box-shadow: inset 0px 3px 5px white;
+        color: rgb(0, 150, 200);        
+        box-shadow: inset 0px 0px 20px rgb(0, 150, 200);
         text-shadow: 1px 1px 0px black;
     }
 

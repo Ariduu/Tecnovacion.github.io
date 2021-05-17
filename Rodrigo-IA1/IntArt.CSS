@@ -1,29 +1,36 @@
 body {
     background-image: url(grupal/img/sFaoXq3.gif);
-    margin:0;
+    margin: 0;
     padding: 0; 
-    width: 100%;
-    height: 100vh;
     background-size: cover;
-    background-position: center;
-}
-
-h{ 
-    font-size: 40px;
     color: white;
-    
+    font-size: 16px;
+    box-sizing: border-box;
 }
 
-h1 {
+/* Contenedor de noticia */
+.contenedor{ border: 1px solid white;
+    margin: 10px 150px;
+}
+
+.contenedor div { border: 1px solid white; }
+
+/* Titulo*/
+H1 { 
+    border: 1px solid white;
     font-size: 45px;
     font-family: sans-serif;
     font-weight: bold;
     color: darkturquoise;
-    text-align: center;
+}
+
+/* Contenido de noticia y articulos */
+.contenido {
+    display: flex;
+
 }
 
 img {
-    width: 200px;
     border: cyan solid 5px;
     margin-top: 15px;
     margin-left: 15px;
@@ -34,87 +41,3 @@ img {
     padding-bottom: 5px;
 
 }
-h2 {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    color: turquoise;
-}
-
-header,section, footer, aside, nav, article{
-    display: block;
-}
-
-.agrupar {
-    border-image: none;
-    margin: auto;
-    border: 1px darkcyan;
-    width: 1000px;
-    float: left;
-    
-}
-
-header {
-    background: rgb(17, 16, 16) ;
-    margin: auto;
-    text-align: left;
-    width: 800px;
-    height: 70px;
-    border: teal solid;
-}
-
-.primero {
-    margin: 15px;
-    width: 400;
-    
-    
-}
-.segundo {
-    margin: 15px;
-    right: 400;
-    
-}
-.columna {
-    
-    width: 400px;
-    float: right;
-    text-align: center;
-    margin: 20px 70px;
-    
-}
-.columna2 {
-      
-      width: 400px;
-      float: left;
-      text-align: center;
-      margin: 20px 30px;
-}
-.pie {
-    clear: both;
-    text-align: right;
-}
-
-article footer {
-    text-align: left;
-}
-
-p {
-    color: lawngreen;
-    border: 110px;
-    font-family: sans-serif;
-    
-}
-
-.menu li {
-    font-family: sans-serif;
-    list-style: none; 
-    color: lawngreen;
-}
-
-.texto {
-    width: 75%;
-    margin: auto;
-}
-
-
-

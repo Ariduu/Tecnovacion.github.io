@@ -224,10 +224,11 @@
 }
 
 .tabladeplataformas{
-    font-size: 65px;
+    font-size: 70px;
     padding-inline-start: 800px;
     float: inline-start;
-    font-family: 'Source Code Pro', monospace;  
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 250px;
 }
 
 

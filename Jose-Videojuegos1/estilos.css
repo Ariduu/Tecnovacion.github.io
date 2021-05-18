@@ -97,6 +97,7 @@
     background: rgb(52, 87, 241);   
     border-radius: 20px;
 }
+
 .discord:hover{
     border: 10px solid rgb(12, 177, 253);
     transition: .2s;

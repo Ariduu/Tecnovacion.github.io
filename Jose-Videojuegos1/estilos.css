@@ -1,3 +1,12 @@
+.tek3nfondo{
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: auto;
+}
+
 .iconos{
 
     position: absolute;
@@ -6,22 +15,6 @@
 }
 
 
-#segundotitulo{
-    color: #e0e0e0;
-    font-size: 150px;
-    font-family: 'Source Code Pro', monospace; 
-    text-align: center;
-}
-
-.titulodepag{
-    color: #e7e5e5;
-    font-size: 120px;
-    text-align: center;
-    font-family: 'Stalinist One', cursive;
-    padding-top: 200px;
-    
-}
-
 .facebook{
     position: center;
     width: 100px;
@@ -29,7 +22,6 @@
     font-size: 45px;
     margin: 15px 25px;
     cursor: pointer;
-    line-height: 50px;
     background: #333;
     color: white;
     box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
@@ -52,7 +44,6 @@
     top: 1560px;
     font-size: 45px;
     margin: 15px 25px;
-    line-height: 50px;
     cursor: pointer;
     background: #333;
     color: white;
@@ -80,8 +71,6 @@
     background: #333;
     color: white;
     box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
-    transition: .2s;
-    transform: translateY(-3px) scale(1.05);
     background: rgb(158, 49, 149);
     border-radius: 20px;
 }
@@ -105,8 +94,6 @@
     background: #333;
     color: white;
     box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
-    transition: .2s;
-    transform: translateY(-3px) scale(1.05);
     background: rgb(52, 87, 241);   
     border-radius: 20px;
 }
@@ -117,14 +104,6 @@
 
 }
 
-.tek3nfondo{
-    width: 100%;
-    height: 2000px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block ;
-    margin: auto;
-}
 
 .nombre {
     text-align: left;
@@ -139,6 +118,21 @@
     mix-blend-mode: normal;
 }
 
+#segundotitulo{
+    color: #e0e0e0;
+    font-size: 150px;
+    font-family: 'Source Code Pro', monospace; 
+    text-align: center;
+}
+
+.titulodepag{
+    color: #e7e5e5;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Stalinist One', cursive;
+    padding-top: 200px;
+    
+}
 
 .textoinf2{
 
@@ -154,7 +148,7 @@
 }
 
 #videot{
-    width: 2800px;
+    width: 80%;
     height: 1400px;
     padding-inline-start: 400px;
     margin-top: 90px;

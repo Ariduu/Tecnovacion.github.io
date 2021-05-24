@@ -4,6 +4,7 @@
     background: black;
     text-align: center;
     clear: both;
+    border-top: 3px solid red 10px;
 }
 
 /* Texto en movimiento */
@@ -12,7 +13,6 @@ marquee {
     text-transform: uppercase;
     color: transparent;
     text-shadow: 0 0 10px red, 0 0 0 white;
-    text-decoration: overline solid red 10px; 
 }
 
 /* Redes */

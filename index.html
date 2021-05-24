@@ -1,110 +1,184 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="Inicio" content="Tecnología en diversas áreas">
-        <meta name="Autor" content="Tecnovación">
-        <title>TECNOVACIÓN | Inicio</title>
-        <link rel="stylesheet" href="estilos.css">
-        <link rel="stylesheet" href="barraInicial.css">
-        <link rel="stylesheet" href="pieDePagina.css">
-    </head>
 
-    <body class="cuerpo">
-        <header class="barraInicial">
-            <nav>
-                <ul>
-                    <li class="nombre">
-                        TECNOVACIÓN
-                    </li>
-                    <li class="buscador">
-                        Buscador
-                    </li>
-                    <li class="suscribirse">
-                        Suscribirse
-                    </li>
-                    <li class="registrarse">
-                        Registrarse
-                    </li>
-                    <li class="iniciarSesion">
-                        Iniciar sesión
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <hr>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Inicio" content="Tecnología en diversas áreas">
+    <meta name="Autor" content="Tecnovación">
+    <title> TECNOVACIÓN </title>
+    <link rel="stylesheet" href="barraInicial.css"> <!-- Barra de navegación -->
+    <link rel="stylesheet" href="estilos.css">      <!-- Principal CSS -->
+    <link rel="stylesheet" href="pieDePagina.css">  <!-- Pie de página -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Font Oswald -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap">
+    <!-- Font Quantico -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Font Saira -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira:wght@100;500&display=swap">
+    <!-- Font Alegreya Sans -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&display=swap">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a class="nombre" href=""> TECNOVACIÓN </a></li>
+            </ul>
+            <ul>
+                <li> <input type="search" value="  Busca aquí tu tema de interés" aria-live="polite" > </li>
+                <li> <i class="fa fa-search"></i> </li>
+            </ul>
+            <ul class="nav-end"> 
+                <li> <a class="suscribirse" href=""> Suscribirse </a> </li>
+                <li> <a class="registrarse" href=""> Registrarse </a> </li>
+                <li> <a class="iniciarSesion" href=""> Iniciar sesión </a> </li>
+            </ul>
+        </nav>
+        <div class="botonContainer">
+            <div class="boton">
+                <i class="fa fa-chevron-up"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor">
         <div class="inicio">
-            <img src="Imagenes/Logo1.png" width="100px">
-            <div class="bienvenido">BIENVENIDO</div>
-            <div class="informacion">Aquí encontraras información sobre la tecnología en diversas áreas</div>
+            <img src="Imagenes/Logo1.png" alt="Logo Tecnovación">
+            <div class="bienvenido"> 
+                <ul>
+                    <li> B </li>
+                    <li> I </li>
+                    <li> E </li>
+                    <li> N </li>
+                    <li> V </li>
+                    <li> E </li>
+                    <li> N </li>
+                    <li> I </li>
+                    <li> D </li>
+                    <li> O </li>
+                </ul>
+            </div>
+            <div class="informacion"> Aquí encontraras blogs sobre la tecnología en diversas áreas </div>
             <div class="verMas">
-                Ver articulos ( ͡👁️ ͜ʖ ͡👁️)
+                <p> VER ARTICULOS </p>
                 <input type="image" src="Imagenes/flechaAbajo2.gif" width="70px" height="50px">
             </div>
         </div>
 
         <div class="panelMenu">
-            <nav class="areas">
-                <ul>
-                    <li class="videojuegos">
-                        <form action="" method="GET">
-                            <input type="button" value="Videojuegos">
-                        </form>                        
-                    </li>
-                    <li class="ia">
-                        <form action="" method="GET">
-                            <input type="button" value="Inteligencia Artificial">
-                        </form>  
-                    </li>
-                    <li class="musica">
-                        <form action="" method="GET">
-                            <input type="button" value="Música">
-                        </form> 
-                    </li>
-                    <li class="medicina">
-                        <form action="" method="GET">
-                            <input type="button" value="Medicina">
-                        </form>  
-                    </li>
-                </ul>
+            <nav>
+                <div class="secciones">
+                    <ul>
+                        <li class="videojuegosBoton">
+                            <a href=""> Videojuegos </a>
+                        </li>
+                        <li class="iaBoton">
+                            <a href=""> Inteligencia Artificial </a>
+                        </li>
+                        <li class="musicaBoton">
+                            <a href=""> Música </a>
+                        </li>
+                        <li class="medicinaBoton">
+                            <a href=""> Medicina </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bordeInferior"></div>
             </nav>
-            <div class="noticias">
+
+            <div class="videojuegos">
                 <section>
-                    <article class="articulo1">
-                        <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                        <h1>Publicación 1</h1>                   
-                    </article>
-                    <article class="articulo2">
-                        <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                        <h1>Publicación 2</h1> 
-                    </article>
-                    <article class="articulo3">
-                        <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                        <h1>Publicación 3</h1> 
-                    </article>
-                    <article class="articulo4">
-                        <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                        <h1>Publicación 4</h1> 
-                    </article>
-                    <article class="articulo5">
-                        <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                        <h1>Publicación 5</h1> 
-                    </article>
-                    <article class="articulo6">
-                        <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                        <h1>Publicación 6</h1> 
-                    </article>
+                    <a href="Jose-Videojuegos1/videojuegos.html">
+                        <article class="articulo1">
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
+                            </p>
+                        </article>
+                    </a>
+                   
+                    <a href="">
+                        <article class="articulo2">
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                            <h1>Publicación 2</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
+                            </p>
+                        </article>
+                    </a>
+                   
+                    <a href="">
+                        <article class="articulo3">
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                            <h1>Publicación 3</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
+                            </p>
+                        </article>
+                    </a>
+                    
+                    <a href="">
+                        <article class="articulo4">
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                            <h1>Publicación 4</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
+                            </p>
+                        </article>
+                    </a>
+                   
+                    <a href="">
+                        <article class="articulo5">
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                            <h1>Publicación 5</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
+                            </p>
+                        </article>
+                    </a>
+                    
+                    <a href="">
+                        <article class="articulo6">
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                            <h1>Publicación 6</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
+                            </p>
+                        </article>
+                    </a>
                 </section>
+
                 <div class="verTodo">
-                    <input type="button" value="Ver todo">
+                    <a href=""> Ver todo </a>
                 </div>
             </div>
-        </div>        
-        <div class="pieDePagina">
-            <footer>
-                Derechos reservados 2010-2021
-            </footer>
         </div>
-    </body>
+    </div>
+        
+    <div class="pieDePagina">
+        <div class="p-redes">
+            <aside> 
+                <h2> Contáctanos </h2>
+                <a href="" class="fab fa-whatsapp"> <br> 912 345 678 </a>
+                <a href="" class="far fa-envelope"> <br> tecnovacion@gmail.com </a>
+            </aside>
+
+            <aside> 
+                <h2> Donaciones </h2>
+                <a href="https://www.rhinoazul.com/wp-content/uploads/2019/06/baner-pagos.png" class="fas fa-money-bill-wave"> <br> YAPE </a>
+                <a href="" class="fab fa-cc-paypal"> <br> tecnovacion@gmail.com </a>
+            </aside>
+            
+            <aside class="p-siguenos"> 
+                <h2> Síguenos </h2>
+                <a href="https://web.facebook.com/" class="fab fa-facebook" ></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram" ></a>
+            </aside>
+        </div>
+    
+        <h1> COPYRIGHT®TECNOVACION </h1>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
 </html>

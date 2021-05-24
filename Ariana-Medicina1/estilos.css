@@ -1,89 +1,70 @@
-.todo{border: 1px solid red;
-    position: absolute;
-    width: 1500px;
-    height: 1920px;
-    left: calc(50% - 1400px/2 - 52.5px);
-    display: block;
-    border: 3px solid red;
-    color: black;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(50, 50, 50);
+}
+
+.todo{
+    width: 1200px;
+    margin: 0 auto;
     text-align: center;
 }
 
-.titulo{border: 1px solid red;
-    position: absolute;
-    width: 1500px;
+.titulo{
     height: 170px;
-    font-size: 72px;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(180deg, #323D44 0%, rgba(0, 153, 254, 0) 100%);
+    font-size: 36px;
+    color: transparent;
+    text-shadow: 0 0 8px cyan, 0 0 0 black;
+    background: linear-gradient(180deg, rgb(0, 97, 97) 0%, rgb(255, 255, 255) 100%);
 }
 
 .fondo{
-    position: absolute;
-    width: 1500px;
-    height: 715px;
-    left: 0px;
-    top: 170px;
+    height: 600px;
     background: url(Imagenes/Doctor-doctora.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
 }
 .hola1{border: 1px solid yellow;
-    position: absolute;
-    width: 1500px;
-    height: 500px;
-    left: 0px;
-    top: 885px;
     background: #387EB8;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
 }
-
 .hola1 h2{
-    position: absolute;
-    width: 713px;
-    height: 60px;
-    left: 0px;
+    width: 790px;
+    line-height: 60px;
     background: rgba(116, 243, 243, 0.9);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;    
 }
-.hola1 p{border: 1px solid greenyellow;
-    position: absolute;
-    width: 1000px;
-    height: 350px;
-    left: 20px;
-    top: 70px;
-    text-align: left;
+.hola1 p{
+    width: 800px;
+    margin-top: 10px;
+    text-align: justify;
     font-size: 24px;
 }
-.hola1 img{border: 1px solid greenyellow;
-    position: absolute;
-    width: 400px;
+.hola1 img{
+    width: 350px;
     height: 350px;
-    left: 1050px;
-    top: 92.5px;
+    margin-top: auto;
+    border-width: 10px rgb(255, 208, 0);
+    border-style: groove;
+}
 
-}
-.hola2{border: 1px solid red;
-    position: absolute;
-    width: 1500px;
-    height: 500px;
-    left: 0px;
-    top: calc(885px + 500px);
+.hola2{
     background: #FFD100;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
 }
-.hola2 img{border: 1px solid red;
-    position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 20px;
-    top: 20px;
+.hola2 img{
+    width: 350px;
 }
-.hola2 div{border: 1px solid red;
-    position: absolute;
-    width: 980px;
-    height: 420px;
-    left: 480px;
-    top: 20px;
+.hola2 div{
+    width: 800px;
     font-size: 24px;
     text-align: right;
 }

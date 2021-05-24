@@ -1,136 +1,148 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    left: 0;
 }
 
-.cuerpo{
-    position: absolute;
-    width: 1515px;
-    height: 1810px;
-    left: calc(50% - 1515px/2);
-    display: block;
+/* Cuerpo */
+body{
+    background-color: #053762;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    box-shadow: inset 0 0 1000px rgba(0, 185, 200);
+}
+
+/* Contenedor total */
+.contenedor {
+    width: 1519px;
+    margin: 0 auto;
+}
+    .contenedor a { color: white; text-decoration: none; }
+    .contenedor ul {
+        list-style: none; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+/* Portada principal */
+.inicio {
+    height: 650px;
+    margin: 10px 0;
+    color: white;
+    background: url(Imagenes/FondoAnimado1.gif) no-repeat center center/cover;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+    .inicio img{
+        width: 500px;
+        height: 300px;
+        background-size: 100% 100%;
+        margin-top: 20px;
+    }
+    .bienvenido{ 
+        color: transparent; 
+        margin-top: 10px;
+        font-family: "Quantico", sans-serif;   
+        font-weight: bold;
+        font-size: 72px;
+        text-shadow: 0 0 10px rgba(0, 185, 200), 0 0 0 white;
+    }
+    .bienvenido:hover {
+        background: radial-gradient(60% 20% at 50% 50%, rgba(0, 185, 200, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    .bienvenido li {
+        margin: 0 25px;
+    }
+    .informacion{
+        width: 700px;   
+        font-size: 40px;
+        line-height: 42px;
+        margin-bottom: 60px;
+        letter-spacing: 1px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-weight: bold;
+    }
+    .verMas{ 
+        font-family: 'Alegreya Sans', sans-serif;
+        font-weight: bold;
+    }
+
+/* Menu banner */
+.secciones ul{ border: 1px solid white; }
+    .secciones li {
+        padding: 0 10px;
+        margin: 0 5px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    .videojuegosBoton {
+        background-color: #910909;
+    }
+    .iaBoton {
+        background-color: green;
+    }
+    .musicaBoton {
+        background-color: green;
+    }
+    .medicinaBoton {
+        background-color: green;
+    }
+    .videojuegosBoton:hover, .iaBoton:hover, .musicaBoton:hover, .medicinaBoton:hover {
+        padding: 0 25px;
+        -webkit-text-stroke: 1px black;
+        box-shadow: inset 0px 0px 10px gold;
+    }
+
+
+.bordeInferior{
+    height: 30px;
+    background: linear-gradient(180deg, #910909 20%, rgb(255, 255, 255) 120%);
+}
+
+/* Noticias de videojuegos */
+.videojuegos {
+    color: white;
+    background: url(Imagenes/Videojuegos1.jpg) no-repeat center center/cover;
+    box-shadow: inset 0px 0px 20px #FFFFFF;
     text-align: center;
 }
-
-.inicio{
-    position: absolute;
-    width: 1515px;
-    height: 640px;
-    top: 70px;    
-    color: white;
-    background: url(Imagenes/FondoAnimado1.gif);
-    background-size: 1515px 640px;
-    background-repeat: no-repeat;
+.videojuegos section {
+    padding: 60px 60px 0px 60px;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
-
-.inicio img{
-    width: 500px;
-    height: 250px;
-    margin-top: 30px;
-}
-
-.bienvenido{
-    position: absolute;
-    width: 900px;
-    margin-top: 50px;
-    left: calc(50% - 900px/2);;
-    top: 270px;
-    font-family: Quantico;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 70px;
-    letter-spacing: 0.7em;
-}
-
-.informacion{
-    position: absolute;
-    margin-top: 30px;
-    width: 640px;
-    left: calc(50% - 630px/2);
-    top: 400px;
-    font-size: 40px;
-    line-height: 38px;
-}
-
-.verMas{
-    position: absolute;
-    width: 260px;
-    left: calc(50% - 260px/2);
-    top: 540px;
-    font-size: 25px;
-    margin-bottom: 100px;
-}
-.verMas input{
-    margin-top: 8px;
-}
-
-.areas{border: 1px solid red;
-    position: absolute;
-    width: 1515px;
-    height: 100px;
-    left: -1px;
-    top: 740px;
-    color: white;
-    font-size: 30px;
-    background: linear-gradient(180deg, #910909 0%, rgba(107, 30, 30, 0) 100%);
-}
-
-.areas li{border: 1px solid white;
-    list-style: none;
-    display: inline-block;
-}
-
-.noticias{
-    position: absolute;
-    width: 1515px;
-    left: -1px;
-    top: 855px;
-    display: inline-block;
-    list-style: none;
-}
-
-.articulo1{border: 1px solid red;
-    position: absolute;
-    width: 400px;
+.videojuegos article { 
     height: 300px;
-    left: calc(50% - 650px);
+    border: 1px solid white; 
+    background-size: 100% 100%;
+    border-radius: 25px;
 }
-.articulo2{border: 1px solid red;
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: calc(50% - 200px);
+.articulo1{ 
+    background-image: url(Imagenes/Blog1.jpg);
 }
-.articulo3{border: 1px solid red;
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: calc(50% + 250px);
+.articulo2, .articulo3, .articulo4, .articulo5, .articulo6 {
+    background: url(Imagenes/PublicaAqui-videojuegos.jpg);
 }
-.articulo4{border: 1px solid red;
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: calc(50% - 650px);
-    top: 350px;
+.articulo1:hover, .articulo2:hover, .articulo3:hover, .articulo4:hover, .articulo5:hover, .articulo6:hover { 
+    border: 3px solid rgb(0, 247, 255);
+    box-shadow: inset 0px 0px 100px 25px rgb(0, 247, 255);
 }
-.articulo5{border: 1px solid red;
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: calc(50% - 200px);
-    top: 350px;
+
+.verTodo {padding: 40px;}
+.verTodo a{
+    padding: 0 10px;
+    border-radius: 75px;
+    border: 1px solid rgb(165, 165, 165);
+    background-color: rgb(97, 97, 97);
+    font-size: 20px;
 }
-.articulo6{border: 1px solid red;
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: calc(50% + 250px);
-    top: 350px;
-}
-.verTodo{
-    position: absolute;
-    left: calc(50% + 600px);
-    top: 670px;
+.verTodo a:hover {
+    border: 3px solid white;
+    box-shadow: inset 0px 10px 20px #FFFFFF;
 }

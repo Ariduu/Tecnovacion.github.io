@@ -1,18 +1,141 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    left: 0;
+}
+header a { color: white; text-decoration: none; }
+header ul {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.barraInicial{
-    text-align: center;
-    height: 60px;
+/* Contenedor de la barra inicial */
+header nav {
     background-color: black;
+    height: 60px;
     color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
 }
 
-.barraInicial li{border: 1px solid white;
-    list-style: none;
-    display: inline-block;
+/* Tecnovacion */
+.nombre {
+    height: 60px;
+    font-family: "Quantico", sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 46px;
+    text-shadow: 3px 2px 3px rgb(0, 185, 200);
 }
+.nombre:hover { color: #c4c4c4; }
+
+/* Buscador */
+header li input {
+    width: 500px; 
+    height: 30px;
+    border-radius: 50px;
+    color: rgb(190, 190, 190);
+}
+header li i { 
+    font-size: 18px; 
+    color: rgb(190, 190, 190); 
+    cursor: pointer;
+}
+
+/* Nav end */
+.nav-end { 
+    font-family: 'Saira', sans-serif;
+}
+    .nav-end a { 
+        margin: 0 5px;
+        padding: 0 5px;
+        border-radius: 25px;
+    }
+    /* sucribirse */
+    .suscribirse {
+        font-size: 22px;
+        color: gold;
+        border: 2px solid gold;
+        text-shadow: 1.5px 1.5px 0px black;
+        box-shadow: inset 0px 0px 7px gold;
+    }
+    .suscribirse:hover {
+        box-shadow: inset 0px 0px 20px gold;
+    }
+        /* registrarse */
+    .registrarse { 
+        border: 2px solid;
+        box-shadow: inset 0px 0px 7px rgb(200, 0, 0);
+    }
+    .registrarse:hover {
+        color: rgb(200, 0, 0);
+        box-shadow: inset 0px 0px 20px rgb(200, 0, 0);
+        text-shadow: 1px 1px 0px black;
+    }
+        /* iniciarSesion */
+    .iniciarSesion { 
+        border: 2px solid ;
+        box-shadow: inset 0px 0px 7px rgb(0, 150, 200);
+    }
+    .iniciarSesion:hover {
+        color: rgb(0, 150, 200);        
+        box-shadow: inset 0px 0px 20px rgb(0, 150, 200);
+        text-shadow: 1px 1px 0px black;
+    }
+
+/* Boton flotante */
+.botonContainer {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 180px;
+    right: -20px;
+    z-index: -1;
+}
+    .boton {
+        background: #2071b2;
+        border-radius: 50%;
+        cursor: pointer;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+    .boton i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        color: white;
+        transition: .5s;
+    }
+
+    /* Efecto de boton flotante */
+    .show {
+        z-index: 10;
+    }
+    .show .boton {
+        width: 50px;
+        height: 50px;
+        animation: popup .5s ease-in-out;
+        z-index: 11;
+    }
+    .show i {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    @keyframes popup {
+        0%{
+            width: 0px;
+            height: 0px;
+        }
+        50%{
+            width: 70px;
+            height: 70px;
+            background-color: cyan;
+        }
+        100%{
+            width: 50px;
+            height: 50px;
+        }
+    }

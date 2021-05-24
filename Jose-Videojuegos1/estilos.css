@@ -1,0 +1,280 @@
+.tek3nfondo{
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: auto;
+}
+
+.iconos{
+
+    position: absolute;
+    left: 4200px;
+    top: 300px;
+}
+
+
+.facebook{
+    position: center;
+    width: 100px;
+    height: 100px;
+    font-size: 45px;
+    margin: 15px 25px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
+    background: cornflowerblue;
+    border-radius: 20px;
+    
+}
+
+.facebook:hover{
+    border: 10px solid rgb(5, 50, 172);
+    transition: .2s;
+    transform: translateY(-15px) scale(1.05);
+
+}
+.whatsapp{    
+    position: center;
+    width: 100px;
+    height: 100px;
+    left: 1101px;
+    top: 1560px;
+    font-size: 45px;
+    margin: 15px 25px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
+    background: rgb(33, 177, 33);
+    border-radius: 20px;
+}
+
+.whatsapp:hover{
+    border: 10px solid rgb(110, 197, 117);
+    transition: .2s;
+    transform: translateY(-15px) scale(1.05);
+}
+
+.instagram{
+    position: center;
+    width: 100px;
+    height: 100px;
+    left: 1101px;
+    top: 1560px;
+    font-size: 45px;
+    margin: 15px 25px;
+    cursor: pointer;
+    line-height: 50px;
+    background: #333;
+    color: white;
+    box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
+    background: rgb(158, 49, 149);
+    border-radius: 20px;
+}
+
+.instagram:hover{
+    border: 10px solid rgb(105, 21, 145);
+    transition: .2s;
+    transform: translateY(-15px) scale(1.05);
+
+}
+
+.discord{
+    position: center;
+    width: 100px;
+    height: 100px;
+    left: 1101px;
+    top: 1560px;
+    font-size: 45px;
+    margin: 15px 25px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    box-shadow: 0 3px   5px 0px rgba(0, 0, 0, 2);
+    background: rgb(52, 87, 241);   
+    border-radius: 20px;
+}
+
+.discord:hover{
+    border: 10px solid rgb(12, 177, 253);
+    transition: .2s;
+    transform: translateY(-15px) scale(1.05);
+
+}
+
+
+.nombre {
+    text-align: left;
+    position: center;
+    width: 100%;
+    height: 60px;
+    top: 10px;
+    left: calc(60% - 1400px/2 - 40px);
+    background-color: black; 
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    mix-blend-mode: normal;
+}
+
+#segundotitulo{
+    color: #e0e0e0;
+    font-size: 150px;
+    font-family: 'Source Code Pro', monospace; 
+    text-align: center;
+}
+
+.titulodepag{
+    color: #e7e5e5;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Stalinist One', cursive;
+    padding-top: 200px;
+    
+}
+
+.textoinf2{
+
+    height: 600px;
+    padding-inline-start: 500px;
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    color: lavender;
+    margin: 50px;
+    margin-bottom: 100px;
+    text-align: justify;
+  
+}
+
+#videot{
+    width: 80%;
+    height: 1400px;
+    padding-inline-start: 400px;
+    margin-top: 90px;
+    
+}
+
+.textoinf{
+    font-family: 'Roboto Mono', monospace;
+    padding-inline-start: 600px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+#actual{
+    font-size: 45px;
+    padding-inline-start: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: azure;
+}
+
+#usuario1{
+    padding-inline-start: 400px;
+    font-size: 55px;
+    color: rgb(15, 99, 177);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.copy{
+    color: rgb(230, 236, 236);
+    text-align: right;
+    font-style: initial;
+    font-size: 45px;    
+    font-family: fantasy;
+}
+
+.contenedor{
+     width: 80%;
+     margin: auto;
+     
+}
+
+.titulob{
+    color: #ffffffbd;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;            
+    width: 100%;
+    
+}
+
+#informacionb{
+    height: 740px;
+    padding-inline-start: 200px;
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    color: lavender;
+    text-align: left;
+    padding-top: 100px;
+    
+}
+
+
+#imgtkn{
+
+    width: 40%;
+    height: 40%;
+    padding-top: 40px;
+    padding-inline-start: 200px;
+
+}
+
+.tabladeplataformas{
+    font-size: 70px;
+    padding-inline-start: 800px;
+    float: inline-start;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 250px;
+}
+
+
+.plataformas{
+    align-items: center;
+
+}
+
+
+table{
+    width: 100%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+    color: rgb(122, 136, 214);
+     }
+     
+td, th {
+    padding: 0.2em;
+
+
+    }   
+
+th, td {
+    border-bottom: 0.5px solid #999;
+    width: 60px;
+    height: 150px;
+     }
+     
+
+#gift{
+    padding-inline-start: 90%;
+    width: 500px;
+    height: 385px;
+    float: right;
+    
+}
+
+#prueba{
+    text-align: center;
+    font-size: 150px;
+    color: rgb(26, 90, 228);
+    font-family: 'Source Code Pro', monospace;  
+}
+
+
+

@@ -1,20 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-    left: 0;
-}
-
 .pieDePagina{
-    position: absolute;
-    width: 1515px;
-    height: 250px;
-    top: 1560px;
-    background: black;
+    width: 100%;
     color: white;
+    background: black;
+    padding: 10px;
+    text-align: center;
     clear: both;
 }
 
-hr{
-    color: red;
-    top: 65px;
+/* Redes */
+.p-redes {
+    display: flex;
+    padding: 0 auto;
+    color: gray;
 }
+    /* 3 columnas */ 
+    .p-redes aside {
+        margin: 0 auto;
+    }
+
+    /* Contactanos / Donaciones / Siguenos */
+    .p-redes aside h2 { 
+        font-size: 30px; 
+        margin-top: 20px;
+    }
+        .p-redes aside a { 
+            color: gray ;
+            text-decoration: none;
+            font-size: 22px;
+            margin: 10px;
+            margin-top: 20px;
+        }
+        .p-redes aside a:hover {
+            color: white;
+            border-bottom: 1px solid white;
+        }
+
+    /* Copyright */
+    .pieDePagina h1{
+        font-size: 18px;
+        text-align: right;
+        margin-top: 5px;
+        color: rgb(150, 150, 150);
+    }

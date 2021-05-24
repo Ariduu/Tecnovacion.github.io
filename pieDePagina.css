@@ -4,6 +4,8 @@
     background: black;
     text-align: center;
     clear: both;
+    border-top: 3px solid red;
+    box-shadow: 0 0 30px inset red;
 }
 
 /* Texto en movimiento */
@@ -12,7 +14,6 @@ marquee {
     text-transform: uppercase;
     color: transparent;
     text-shadow: 0 0 10px red, 0 0 0 white;
-    margin-top: 10px;
 }
 
 /* Redes */
@@ -32,8 +33,7 @@ marquee {
             color: gray ;
             text-decoration: none;
             font-size: 22px;
-            margin: 10px 15px;
-            margin-top: 20px;
+            margin: 10px;
             line-height: 30px;
         }
         .p-redes aside a:hover {
@@ -44,6 +44,5 @@ marquee {
     /* Copyright */
     .pieDePagina h1{
         font-size: 18px;
-        margin-top: 5px;
         color: rgb(175, 175, 175);
     }

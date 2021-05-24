@@ -1,0 +1,32 @@
+function mostrarMensaje(){
+    alert('Holaaaaaaaaaaaaaa');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,7 +4,8 @@
     background: black;
     text-align: center;
     clear: both;
-    border-top: 3px solid red 10px;
+    border-top: 3px solid red;
+    box-shadow: 0 0 30px inset red;
 }
 
 /* Texto en movimiento */

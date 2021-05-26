@@ -1,9 +1,9 @@
 function mostrarMensaje(){
-    alert('Holaaaaaaaaaaaaaa');
+    alert('☺☺☺');
 }
 
 var nombre = "Jose"
-var edad = "copyright"
+var edad = "20"
 
 var concatenacion = nombre + " " + edad
 

@@ -63,8 +63,8 @@ myImage.addEventListener('load', function (){
     }
     draw(){
       ctx.beginPath();
-      ctx.fillStyle = 'cyan';
-      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fillStyle = '#2bff00'; //color de efecto de lluvia
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 1.5);
       ctx.fill();
     }
   }
@@ -76,22 +76,18 @@ myImage.addEventListener('load', function (){
   init();
   function animate() {
     ctx.globalAlpha = 0.05;
-    ctx.fillStyle = 'black';
+    ctx.fillStyle = '#2D3436'; //color de fondo
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.globalAlpha = 0.2;
+    //ctx.globalAlpha = 0.2;
     for (let i=0; i<particlesArray.length; i++){
       particlesArray[i].update();
-      ctx.globalAlpha = particlesArray[i].speed * 0.5;
+      ctx.globalAlpha = particlesArray[i].speed * 2;
       particlesArray[i].draw();
     }
     requestAnimationFrame(animate);
   }
   animate();
-
 });
-
-
-
 
 window.onscroll = function(){
   if(document.documentElement.scrollTop > 300){

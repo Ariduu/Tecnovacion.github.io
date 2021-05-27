@@ -1,4 +1,4 @@
-function mostrarMensaje(){
+//function mostrarMensaje(){
     alert('☺☺☺');
 }
 

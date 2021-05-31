@@ -52,35 +52,50 @@ a { text-decoration: none; color: white; }
         cursor: pointer;
         border-radius: 35%;
     }
-
+    
+    .fa-facebook-f{
+        color: rgb(72, 73, 160);;  
+    }
+    
     .facebook{
-        background: cornflowerblue;    
+        background:none;    
     }
     .facebook:hover {
-        border: 5px solid cornflowerblue;
+        border: 3px solid cornflowerblue;
     }
-
+    .fa-whatsapp{
+        color: rgb(10, 184, 19);;  
+    }
+    
     .whatsapp {    
-        background: rgb(33, 177, 33);
+        background: none;
     }
     .whatsapp:hover{
         border: 3px solid rgb(110, 197, 117);
     }
 
+    
+    .fa-instagram{
+        color: rgb(105, 21, 145);;  
+    }
+    
     .instagram {
-        background: rgb(158, 49, 149);
+        background: none;
     }
     .instagram:hover{
         border: 3px solid rgb(105, 21, 145);
+
         
     }
-
-    .discord{
-        font-size: 25px;
-        background: rgb(52, 87, 241);   
+    .fa-discord{
+        color: rgb(46, 139, 214);
+        
+    }
+    .discord{ 
+        background: none;   
     }
     .discord:hover{
-        border: 3px solid rgb(12, 177, 253);
+        border: 3px solid rgb(46, 139, 214);
     }
 
     .facebook:hover, .whatsapp:hover, .instagram:hover, .discord:hover{
@@ -197,30 +212,35 @@ a { text-decoration: none; color: white; }
     */
         .fa-facebook:hover{
             color: cornflowerblue;
+            border-bottom: 1px solid cornflowerblue;
           
         }
         .fa-instagram:hover{
             color: rgb(151, 32, 230);   
+            border-bottom: 1px solid rgb(151, 32, 230);
         }
         .fa-envelope:hover{
-            color: darkturquoise;
+            color: rgb(194, 15, 24);
+            border-bottom: 1px solid rgb(194, 15, 24);
         }
         .fa-money-bill-wave:hover{
-            color: deeppink;
+            color: rgb(146, 71, 189);
+            border-bottom: 1px solid rgb(146, 71, 189);
         }
         .fa-cc-paypal:hover{
-            color: green;
+            color: rgb(14, 38, 255);
+            border-bottom: 1px solid rgb(14, 38, 255);
         }
 
         .fa-whatsapp:hover{
             color: rgb(2, 133, 2);
+            border-bottom: 1px solid rgb(2, 133, 2);
         }
 
 
         .p-redes aside a:hover{
             transform: translateX(10px) scale(1);
             transition: .6s;
-   
         }
         
 

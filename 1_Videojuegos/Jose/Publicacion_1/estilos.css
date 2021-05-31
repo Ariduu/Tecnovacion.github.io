@@ -11,7 +11,7 @@ a { text-decoration: none; color: white; }
 .cabecera{
     display: flex;
     height: 500px;
-    background: url(Jose/Imagenes/tekkk3n.jpg);
+    background: url(../Imagenes/tekkk3n.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 -100px;

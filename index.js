@@ -76,7 +76,7 @@ myImage.addEventListener('load', function (){
   init();
   function animate() {
     ctx.globalAlpha = 0.05;
-    ctx.fillStyle = '#2D3436'; //color de fondo
+    ctx.fillStyle = 'black'; //color de fondo
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     //ctx.globalAlpha = 0.2;
     for (let i=0; i<particlesArray.length; i++){

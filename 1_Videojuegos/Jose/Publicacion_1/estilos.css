@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
 }
-body { font-size: 16px; color: white; }
+body { font-size: 16px; color: white; 
+}
 hr { margin: 5px auto; }
 a { text-decoration: none; color: white; }
 
@@ -17,8 +18,82 @@ a { text-decoration: none; color: white; }
     background-position: 0 -100px;
     font-family: 'Stalinist One', cursive;
     text-align: center;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
     
+}
+.nombre {
+    height: 60px;
+    font-family: "Quantico", sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 46px;
+    text-shadow: 3px 2px 3px rgb(0, 185, 200);
+}
+header li input {
+    width: 500px; 
+    height: 30px;
+    border-radius: 50px;
+    color: rgb(190, 190, 190);
+}
+header li i { 
+    font-size: 18px; 
+    color: rgb(190, 190, 190); 
+    cursor: pointer;
+}
+.nav-end { 
+    font-family: 'Saira', sans-serif;
+}
+    .nav-end a { 
+        margin: 0 5px;
+        padding: 0 5px;
+        border-radius: 25px;
+    }
+    /* sucribirse */
+    .suscribirse {
+        font-size: 22px;
+        color: gold;
+        border: 2px solid gold;
+        text-shadow: 1.5px 1.5px 0px black;
+        box-shadow: inset 0px 0px 7px gold;
+    }
+    .suscribirse:hover {
+        box-shadow: inset 0px 0px 20px gold;
+    }
+        /* registrarse */
+    .registrarse { 
+        border: 2px solid;
+        box-shadow: inset 0px 0px 7px rgb(200, 0, 0);
+    }
+    .registrarse:hover {
+        color: rgb(200, 0, 0);
+        box-shadow: inset 0px 0px 20px rgb(200, 0, 0);
+        text-shadow: 1px 1px 0px black;
+    }
+        /* iniciarSesion */
+    .iniciarSesion { 
+        border: 2px solid ;
+        box-shadow: inset 0px 0px 7px rgb(0, 150, 200);
+    }
+    .iniciarSesion:hover {
+        color: rgb(0, 150, 200);        
+        box-shadow: inset 0px 0px 20px rgb(0, 150, 200);
+        text-shadow: 1px 1px 0px black;
+    }
+    
+header a { color: white; text-decoration: none; }
+header ul {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav {
+    background-color: #2d3436;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
 }
     .cabecera div {
         width: 1300px;
@@ -43,7 +118,7 @@ a { text-decoration: none; color: white; }
     height: 202px;
     position: fixed;
     left: 0;
-    bottom: calc(50% - 101px);
+    bottom: calc(60% - 101px);
 }
     .whatsapp, .instagram, .discord, .facebook{  
         width: 40px;  
@@ -182,6 +257,7 @@ a { text-decoration: none; color: white; }
     text-align: center;
     clear: both;
     box-shadow: 0 0 30px inset rgb(153, 143, 143);
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .p-redes{
@@ -205,11 +281,6 @@ a { text-decoration: none; color: white; }
         margin: 10px;
         line-height: 30px;
     }
-    /*.p-redes aside a:hover {
-        color: rgb(171, 2, 250);
-        border-bottom: 1px solid rgb(90, 55, 187);
-    }
-    */
         .fa-facebook:hover{
             color: cornflowerblue;
             border-bottom: 1px solid cornflowerblue;

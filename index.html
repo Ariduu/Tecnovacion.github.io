@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Inicio" content="Tecnología en diversas áreas">
-    <meta name="Autor" content="Tecnovación">
     <title> TECNOVACIÓN </title>
     <link rel="stylesheet" href="barraInicial.css"> <!-- Barra de navegación -->
-    <link rel="stylesheet" href="estilos.css">      <!-- Principal CSS -->
+    <link rel="stylesheet" href="estilos.css">      <!-- Pagina principal -->
     <link rel="stylesheet" href="pieDePagina.css">  <!-- Pie de página -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Font Oswald -->
@@ -48,26 +45,30 @@
 
     <div class="contenedor">
         <div class="inicio">
-            <img src="Imagenes/Logo1.png" alt="Logo Tecnovación">
-            <div class="bienvenido"> 
-                <ul>
-                    <li> B </li>
-                    <li> I </li>
-                    <li> E </li>
-                    <li> N </li>
-                    <li> V </li>
-                    <li> E </li>
-                    <li> N </li>
-                    <li> I </li>
-                    <li> D </li>
-                    <li> O </li>
-                </ul>
+            <div class="izquierda">
+                <img src="Imagenes/Logo1.png" alt="Logo Tecnovación">
+                <div class="bienvenido"> 
+                    <ul>
+                        <li> B </li>
+                        <li> I </li>
+                        <li> E </li>
+                        <li> N </li>
+                        <li> V </li>
+                        <li> E </li>
+                        <li> N </li>
+                        <li> I </li>
+                        <li> D </li>
+                        <li> O </li>
+                    </ul>
+                </div>
+                <div class="informacion"> Aquí encontraras blogs sobre la tecnología en diversas áreas </div>
+                <div class="verMas">
+                    <p> VER ARTICULOS </p>
+                    <input type="image" src="Imagenes/flechaAbajo2.gif" width="70px" height="50px">
+                </div>
             </div>
-            <div class="informacion"> Aquí encontraras blogs sobre la tecnología en diversas áreas </div>
-            <div class="verMas">
-                <p> VER ARTICULOS </p>
-                <input type="image" src="Imagenes/flechaAbajo2.gif" width="70px" height="50px">
-            </div>
+
+            <canvas id="canvas1"></canvas>
         </div>
 
         <div class="panelMenu">
@@ -154,8 +155,8 @@
             </div>
         </div>
     </div>
-        
-    <div class="pieDePagina">
+
+    <footer class="pieDePagina">
         <marquee scrollamount=20px direction=right> ◄ Tecnovación ► </marquee>
         <div class="p-redes">
             <aside> 
@@ -178,7 +179,7 @@
         </div>
     
         <h1> COPYRIGHT®TECNOVACION </h1>
-    </div>
+    </footer>
     
     <script src="index.js"></script>
 </body>

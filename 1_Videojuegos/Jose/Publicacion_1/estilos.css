@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body { font-size: 16px; color: white; 
+}
+hr { margin: 5px auto; }
+a { text-decoration: none; color: white; }
+
+/* Titulo */
+.cabecera{
+    display: flex;
+    height: 500px;
+    background: url(../Imagenes/tekkk3n.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 -100px;
+    font-family: 'Stalinist One', cursive;
+    text-align: center;
+    padding-bottom: 250px;
+    
+}
+.nombre {
+    height: 60px;
+    font-family: "Quantico", sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 46px;
+    text-shadow: 3px 2px 3px rgb(0, 185, 200);
+}
+header li input {
+    width: 500px; 
+    height: 30px;
+    border-radius: 50px;
+    color: rgb(190, 190, 190);
+}
+header li i { 
+    font-size: 18px; 
+    color: rgb(190, 190, 190); 
+    cursor: pointer;
+}
+.nav-end { 
+    font-family: 'Saira', sans-serif;
+}
+    .nav-end a { 
+        margin: 0 5px;
+        padding: 0 5px;
+        border-radius: 25px;
+    }
+    /* sucribirse */
+    .suscribirse {
+        font-size: 22px;
+        color: gold;
+        border: 2px solid gold;
+        text-shadow: 1.5px 1.5px 0px black;
+        box-shadow: inset 0px 0px 7px gold;
+    }
+    .suscribirse:hover {
+        box-shadow: inset 0px 0px 20px gold;
+    }
+        /* registrarse */
+    .registrarse { 
+        border: 2px solid;
+        box-shadow: inset 0px 0px 7px rgb(200, 0, 0);
+    }
+    .registrarse:hover {
+        color: rgb(200, 0, 0);
+        box-shadow: inset 0px 0px 20px rgb(200, 0, 0);
+        text-shadow: 1px 1px 0px black;
+    }
+        /* iniciarSesion */
+    .iniciarSesion { 
+        border: 2px solid ;
+        box-shadow: inset 0px 0px 7px rgb(0, 150, 200);
+    }
+    .iniciarSesion:hover {
+        color: rgb(0, 150, 200);        
+        box-shadow: inset 0px 0px 20px rgb(0, 150, 200);
+        text-shadow: 1px 1px 0px black;
+    }
+    
+header a { color: white; text-decoration: none; }
+header ul {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav {
+    background-color: #2d3436;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+}
+    .cabecera div {
+        width: 1300px;
+        height: 220px;
+        font-size: 48px;
+        -webkit-text-stroke: 5px rgb(255, 255, 255);
+        margin: auto;
+        margin-bottom: 0;
+        color: transparent;
+        text-shadow: 0 0 12.5px rgb(255, 255, 255), 0 0 0 rgb(105, 102, 102);
+    }
+
+/* Contenido total centrado a excepcion del titulo */
+.contenedor{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* Icono en lateral izquierdo */
+.iconos{
+    height: 202px;
+    position: fixed;
+    left: 0;
+    bottom: calc(60% - 101px);
+}
+    .whatsapp, .instagram, .discord, .facebook{  
+        width: 40px;  
+        height: 40px;
+        font-size: 22px;
+        cursor: pointer;
+        border-radius: 35%;
+    }
+    
+    .fa-facebook-f{
+        color: rgb(72, 73, 160);;  
+    }
+    
+    .facebook{
+        background:none;    
+    }
+    .facebook:hover {
+        border: 3px solid cornflowerblue;
+    }
+    .fa-whatsapp{
+        color: rgb(10, 184, 19);;  
+    }
+    
+    .whatsapp {    
+        background: none;
+    }
+    .whatsapp:hover{
+        border: 3px solid rgb(110, 197, 117);
+    }
+
+    
+    .fa-instagram{
+        color: rgb(105, 21, 145);;  
+    }
+    
+    .instagram {
+        background: none;
+    }
+    .instagram:hover{
+        border: 3px solid rgb(105, 21, 145);
+
+        
+    }
+    .fa-discord{
+        color: rgb(46, 139, 214);
+        
+    }
+    .discord{ 
+        background: none;   
+    }
+    .discord:hover{
+        border: 3px solid rgb(46, 139, 214);
+    }
+
+    .facebook:hover, .whatsapp:hover, .instagram:hover, .discord:hover{
+        transition: .4s;
+        transform: translateX(10px) scale(1);
+        box-shadow: inset 0 0 10px rgb(153, 123, 123);
+    }
+
+    /* Fecha y Subtitulo */
+.fecha {
+    margin: 10px 0;
+}
+ 
+/* Division de 2 columnas */
+.contenerBloques {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 10px;
+    gap: 40px;
+}
+    .bloque1 {
+        width: 800px;
+        text-align: center;
+    }
+        /* Elemento de parrafos de noticia */
+        .contenerBloques iframe {
+            width: 500px;
+            height: 300px;
+            margin: 10px 0;
+        }
+        .contenerBloques p{
+            font-family: 'Roboto Mono', monospace;
+            margin: 20px 0;
+            text-align: justify; 
+        }
+        .subtitulo2{
+            font-family: 'Source Code Pro', monospace;              
+        }
+        .contenerBloques img {
+            width: 500px;
+            height: 300px;
+            margin-bottom: 5px;
+        }
+    .bloque2 { 
+        border: 10px groove rgba(128, 128, 128, 0.25);
+        background-color: rgba(128, 128, 128, 0.25);
+        width: 300px;
+        margin: 20px 0;
+    }   
+        .bloque2 .encabezado {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+        .bloque2 article { 
+            border: 1px solid white;
+            height: 200px;
+            margin: 20px 10px;
+        }
+    
+/* Final de noticia */
+.tabladeplataformas{
+    width: max-content;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    margin: 20px auto;
+    color: transparent;
+    text-shadow: 0 0 2px #468ce7, 0 0 0 white;
+}     
+    .tabladeplataformas table {
+        border-collapse: collapse;
+    }
+    .tabladeplataformas td {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 20px;
+        border-bottom: 3px groove rgba(255, 255, 255, 0.1);
+        border-top: 3px groove rgba(255, 255, 255, 0.1);        
+    }
+.pieDePagina{
+    background-color: rgb(20, 18, 18);
+    text-align: center;
+    clear: both;
+    box-shadow: 0 0 30px inset rgb(153, 143, 143);
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.p-redes{
+    display: flex;
+    color: rgb(229, 226, 226)
+
+}
+.p-redes aside { 
+    width: 550px;
+    margin: 0 auto;
+}
+    .pieDePagina h1{
+        font-size: 18px;
+    }
+    .p-redes aside h2 { font-size: 25px; }
+    
+    .p-redes aside a { 
+        color: rgb(241, 232, 232) ;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 10px;
+        line-height: 30px;
+    }
+        .fa-facebook:hover{
+            color: cornflowerblue;
+            border-bottom: 1px solid cornflowerblue;
+          
+        }
+        .fa-instagram:hover{
+            color: rgb(151, 32, 230);   
+            border-bottom: 1px solid rgb(151, 32, 230);
+        }
+        .fa-envelope:hover{
+            color: rgb(194, 15, 24);
+            border-bottom: 1px solid rgb(194, 15, 24);
+        }
+        .fa-money-bill-wave:hover{
+            color: rgb(146, 71, 189);
+            border-bottom: 1px solid rgb(146, 71, 189);
+        }
+        .fa-cc-paypal:hover{
+            color: rgb(14, 38, 255);
+            border-bottom: 1px solid rgb(14, 38, 255);
+        }
+
+        .fa-whatsapp:hover{
+            color: rgb(2, 133, 2);
+            border-bottom: 1px solid rgb(2, 133, 2);
+        }
+
+
+        .p-redes aside a:hover{
+            transform: translateX(10px) scale(1);
+            transition: .6s;
+        }
+        
+
+
+
+

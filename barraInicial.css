@@ -13,7 +13,7 @@ header ul {
 
 /* Contenedor de la barra inicial */
 header nav {
-    background-color: black;
+    background-color: #2d3436;
     height: 60px;
     color: white;
     display: flex;

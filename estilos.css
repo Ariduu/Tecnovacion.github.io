@@ -6,10 +6,10 @@
 
 /* Cuerpo */
 body{
-    background-color: #053762;
+    background-color: #566164;
     font-family: "Oswald", sans-serif;
     font-size: 16px;
-    box-shadow: inset 0 0 1000px rgba(0, 185, 200);
+    box-shadow: inset 0 0 0 white;
 }
 
 /* Contenedor total */
@@ -30,49 +30,57 @@ body{
     height: 650px;
     margin: 10px 0;
     color: white;
-    background: url(Imagenes/FondoAnimado1.gif) no-repeat center center/cover;    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 20px;
+    background-color: #2d3436;
+    display: flex; 
+    justify-content: space-between;
+    /*background: url(Imagenes/FondoAnimado1.gif) no-repeat center center/cover;    */
 }
-    .inicio img{
-        width: 500px;
-        height: 300px;
-        background-size: 100% 100%;
-        margin-top: 20px;
+    .izquierda {
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
     }
-    .bienvenido{ 
-        color: transparent; 
-        margin-top: 10px;
-        font-family: "Quantico", sans-serif;   
-        font-weight: bold;
-        font-size: 72px;
-        text-shadow: 0 0 10px rgba(0, 185, 200), 0 0 0 white;
-    }
-    .bienvenido:hover {
-        background: radial-gradient(60% 20% at 50% 50%, rgba(0, 185, 200, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
-    }
-    .bienvenido li {
-        margin: 0 25px;
-    }
-    .informacion{
-        width: 700px;   
-        font-size: 40px;
-        line-height: 42px;
-        margin-bottom: 60px;
-        letter-spacing: 1px;
-        font-family: 'Alegreya Sans', sans-serif;
-        font-weight: bold;
-    }
-    .verMas{ 
-        font-family: 'Alegreya Sans', sans-serif;
-        font-weight: bold;
-    }
-
+        .izquierda img{
+            width: 450px;
+            height: 250px;
+            background-size: 100% 100%;
+            margin-top: 20px;
+        }
+        .bienvenido{ 
+            color: transparent; 
+            margin-top: 10px;
+            font-family: "Quantico", sans-serif;   
+            font-weight: bold;
+            font-size: 100px;
+            text-shadow: 0 0 10px #00b9c8, 0 0 0 white;
+        }
+        .bienvenido:hover {
+            background: radial-gradient(70% 20% at 50% 50%, rgba(0, 185, 200, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+        }
+        .bienvenido li {
+            margin: 0 10px;
+        }
+        .informacion{
+            width: 70%;
+            font-size: 40px;
+            line-height: 42px;
+            margin-bottom: 60px;
+            letter-spacing: 1px;
+            font-family: 'Alegreya Sans', sans-serif;
+        }
+        .verMas{ 
+            font-family: 'Alegreya Sans', sans-serif;
+            font-weight: bold;
+        }
+   
+    
+    #canvas1 { width: 50%; }
+    
 /* Menu banner */
-.secciones ul{ border: 1px solid white; }
+.secciones ul{ border: 1px solid white;}
     .secciones li {
         padding: 0 10px;
         margin: 0 5px;

@@ -30,17 +30,30 @@ function mostrarMensaje(){
 
 //ejercicio2
 
-/*var text = 'hola mundo'
+
+var text = 'hola mundo'
 var caract = 9
 
-document.getElementById('texto').innerHTML="son" + text + 'caracteres';
+document.getElementById('texto32').innerHTML="son" + " " + caract + " " + 'caracteres ';
 
 function mostrarMensaje(){
     if(caract = 9)
     alert('los caracteres son 9')
+    else{
+        alert(false)
+    }
 
 }
-*/
+//ejercicio 3
+
+
+
+function MyFunctionn()
+
+{
+    document.getElementById('nombre2').innerHTML="jose carlos calapuja";
+
+}   
 
 
 

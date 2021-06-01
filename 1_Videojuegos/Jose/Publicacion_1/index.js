@@ -48,7 +48,7 @@ function mostrarMensaje(){
 
 
 
-function MyFunctionn()
+function nombre123()
 
 {
     document.getElementById('nombre2').innerHTML="jose carlos calapuja";

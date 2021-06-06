@@ -55,7 +55,7 @@ function nombre123()
 
 }   
 
-
+var dni = 7164615
 
 
 /*  1. 

@@ -256,8 +256,9 @@ header nav {
     background-color: rgb(20, 18, 18);
     text-align: center;
     clear: both;
-    box-shadow: 0 0 30px inset rgb(153, 143, 143);
-    font-family: 'Fjalla One', sans-serif;
+    box-shadow: 0 0 30px inset rgb(194, 159, 159);
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 35px;
 }
 
 .p-redes{

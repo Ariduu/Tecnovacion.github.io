@@ -8,7 +8,7 @@ var claro = "123123";*/
 
 
 //ejercicio 1
-document.getElementById('ejercicio').innerHTML="Persona adulta" + $resultado
+document.getElementById('ejercicio').innerHTML="Persona adulta";
 
 var _numero1 = 10;
 var $numero2 = 8;
@@ -18,7 +18,7 @@ var $resultado = _numero1 + $numero2;
 function mostrarMensaje(){
 
     if($resultado >= 16){
-            alert("Persona adulta" );   
+            alert(" La Persona es adulta" );   
     }
 
     else{
@@ -31,7 +31,7 @@ function mostrarMensaje(){
 //ejercicio2
 
 
-var text = 'hola mundo'
+/*var text = 'hola mundo'
 var caract = 9
 
 document.getElementById('texto32').innerHTML="son" + " " + caract + " " + 'caracteres ';
@@ -41,57 +41,161 @@ function mostrarMensaje(){
     alert('los caracteres son 9')
     else{
         alert(false)
-    }
+    } 
 
 }
-//ejercicio 3
 
 
 
-function nombre123()
+/*function nombre123()
 
 {
-    document.getElementById('nombre2').innerHTML="jose carlos calapuja";
+    document.getElementById('nombre2').innerHTML="TECNOVACIONNNNNN";
 
 }   
 
-let numeros = [7, 1 , 4 , 3, 4,9, 3 , 2]
 
-console.log(Math.min.apply(null, numeros));
-console.log(Math.max.apply(null, numeros));
 
-function mayormenor(){
-    var num1 = 1
+var n1 = 8
+var n2 = 10
+
+var re = n1 - n2 
+var re2 = n1 + n2*/
+
+/*function mostrarMensaje(){
+    if(re = 2) 
+        alert('la resta es ' + re)
+    else(re2 = 18)
+        alert("la suma es " + re2)
+  
 }
-
+*/
 
 
 
 /*  1. 
 - definir variable tipo numero = 18
 - condicional si en caso es mayor a 16, debe mostrar un mensaje que es una persona adulta
+*/
 
+document.getElementById('ejercicio').innerHTML="Persona adulta";
+
+var _numero1 = 10;
+var $numero2 = 8;
+var $resultado = _numero1 + $numero2;
+
+
+function mostrarMensaje(){
+
+    if($resultado >= 16){
+            alert(" La Persona es adulta" );   
+    }
+
+    else{
+            alert("persona menor" );
+    }
+}
+
+
+/*
 2.
 - definir una varaible tipo texto
-- debe mostrar un mensaje con la cantidad de caracteres
+- condicional si la var tipo texto tiene mas de 20 caracteres debe mostrar mensaje "cant caracteres" */
+let nmero = parseInt(prompt("introduzca un texto"));
+let contador = 0;
+while(nmero >= 1){
+        contador = contador +1;
+        nmero = nmero / 10
+}
+document.write("el texto tiene" + contador + " caracteres")
 
+
+
+/*
 3.
 - crear un boton (input)
-- al hacer clic en el boton debe llamar a una fución
-- en la funciona debe mostrar su nombre
+- al hacer clic en el boton debe llamar a una fución 1*/
 
+
+
+
+
+/*
 4. 
 - definir variable tipo dni. Ejm: 43726263
 - mostrar un mensaje donde me indique el numero mayor
 - indicar si hay numeros repetidos
+*/
 
+var dni = [7,1,2,5,4,3,8,4]
+
+function mayormenor(){
+    if(7 >= 1,2,5,4,3,8)
+    alert("el numero mayor es " )
+    else(20 <= 1,2,5,4,3,8)
+    alert("el numero es menor que")
+
+
+}
+
+
+
+
+/*
 5.
-- ingresar don numeros 
-- mostrar la suma y resta de estos números*/
+- ingresar don numeros a una caja texto. 10 y 2
+- botones: suma resta multiplicación división (+) (-) (*) (/)
+- mostrar suma resta multiplicación división 12 8 20 5 (debe ser en la misma página)
+*/
+
+function pintar(color){
+    document.getElementById('cuadrado').style.backgroundColor = color;
+
+}
+
+
+var numer1 = 10
+var numer2 = 2
+var resul3 = numer1 + numer2
+function suma()
+
+{
+    document.getElementById('suma').innerHTML=resul3;
+
+}   
+
+var numer1 = 10
+var numer2 = 2
+var resul4 = numer1 - numer2
+function resta()
+
+{
+    document.getElementById('resta').innerHTML=resul4;
+
+}   
 
 
 
+var numer1 = 10
+var numer2 = 2
+var resul5 = numer1 * numer2
+function multiplicacion()
 
+{
+    document.getElementById('multiplicacion').innerHTML=resul5;
+
+}   
+
+
+var numer1 = 10
+var numer2 = 2
+var resul6 = numer1 / numer2
+function division()
+
+{
+    document.getElementById('division').innerHTML=resul6;
+
+}   
 
 
 

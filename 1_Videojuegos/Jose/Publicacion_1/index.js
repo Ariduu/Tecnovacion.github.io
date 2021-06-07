@@ -55,7 +55,16 @@ function nombre123()
 
 }   
 
-var dni = 7164615
+let numeros = [7, 1 , 4 , 3, 4,9, 3 , 2]
+
+console.log(Math.min.apply(null, numeros));
+console.log(Math.max.apply(null, numeros));
+
+function mayormenor(){
+    var num1 = 1
+}
+
+
 
 
 /*  1. 

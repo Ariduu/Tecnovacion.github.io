@@ -101,6 +101,7 @@ function mostrarMensaje(){
 2.
 - definir una varaible tipo texto
 - condicional si la var tipo texto tiene mas de 20 caracteres debe mostrar mensaje "cant caracteres" */
+
 let nmero = parseInt(prompt("introduzca un texto"));
 let contador = 0;
 while(nmero >= 1){
@@ -108,6 +109,8 @@ while(nmero >= 1){
         nmero = nmero / 10
 }
 document.write("el texto tiene" + contador + " caracteres")
+
+
 
 
 

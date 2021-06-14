@@ -102,7 +102,7 @@ function mostrarMensaje(){
 - definir una varaible tipo texto
 - condicional si la var tipo texto tiene mas de 20 caracteres debe mostrar mensaje "cant caracteres" */
 
-let nmero = parseInt(prompt("introduzca un texto"));
+let nmero = parseInt(prompt("introduzca un numero"));
 let contador = 0;
 while(nmero >= 1){
         contador = contador +1;

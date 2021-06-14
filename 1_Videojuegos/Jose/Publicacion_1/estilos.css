@@ -316,6 +316,83 @@ header nav {
         }
         
 
+    .filas{
+            margin: 20px 0;
+            justify-content: center;
+            padding-inline-start: 200px;
+            
+        }
+    .comentarios1 textarea{
+        width: 80% ;
+        height: 84px;
+        max-width: 80%;
+        min-width: 80%;
+        min-height: 84px;
+        max-height: 300px;
+        padding-left: 10px;
+        line-height: 30px;
+        border: 1px solid #222020;
+    }
+
+
+    .comentarios1 .boton2 {
+        background:rgb(76, 90, 218);
+        color: rgb(255, 255, 255);
+        height: 30px;
+        width: 100px;
+        font-family: 'Source Code Pro', monospace;
+    
+    }
+
+    .comentarios1 .boton2:hover{
+        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.35);
+
+    }
+
+
+    #cj1{
+        background: rgb(176, 177, 175);
+    }
+
+
+    .user1{
+
+        font-family: 'Source Code Pro', monospace;
+        padding-left: 70px;
+    
+        float: left;
+
+    }
+
+    .comu1{
+        font-family: 'Source Code Pro', monospace;
+        width: 80%;
+        height: 80%;
+        float: left;
+    }
+
+    .coment{
+        border-top: 1px #bfbfbf;
+        padding-top: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

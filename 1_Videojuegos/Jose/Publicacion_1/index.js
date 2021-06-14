@@ -1,10 +1,11 @@
+
 /*function mostrarMensaje(){
     alert('/♪');
 }
 
 var nombre = "Jose";
 var edad = "20";
-var claro = "123123";*/
+var claro = "123123";
 
 
 //ejercicio 1
@@ -77,7 +78,7 @@ var re2 = n1 + n2*/
 - definir variable tipo numero = 18
 - condicional si en caso es mayor a 16, debe mostrar un mensaje que es una persona adulta
 */
-
+/*
 document.getElementById('ejercicio').innerHTML="Persona adulta";
 
 var _numero1 = 10;
@@ -94,14 +95,13 @@ function mostrarMensaje(){
     else{
             alert("persona menor" );
     }
-}
-
+}*/
 
 /*
 2.
 - definir una varaible tipo texto
 - condicional si la var tipo texto tiene mas de 20 caracteres debe mostrar mensaje "cant caracteres" */
-
+/*
 let nmero = parseInt(prompt("introduzca un numero"));
 let contador = 0;
 while(nmero >= 1){
@@ -111,7 +111,7 @@ while(nmero >= 1){
 document.write("el texto tiene" + contador + " caracteres")
 
 
-
+*/
 
 
 /*
@@ -129,7 +129,7 @@ document.write("el texto tiene" + contador + " caracteres")
 - mostrar un mensaje donde me indique el numero mayor
 - indicar si hay numeros repetidos
 */
-
+/*
 var dni = [7,1,2,5,4,3,8,4]
 
 function mayormenor(){
@@ -141,7 +141,7 @@ function mayormenor(){
 
 }
 
-
+*/
 
 
 /*
@@ -150,7 +150,7 @@ function mayormenor(){
 - botones: suma resta multiplicación división (+) (-) (*) (/)
 - mostrar suma resta multiplicación división 12 8 20 5 (debe ser en la misma página)
 */
-
+/*
 function pintar(color){
     document.getElementById('cuadrado').style.backgroundColor = color;
 
@@ -199,6 +199,24 @@ function division()
     document.getElementById('division').innerHTML=resul6;
 
 }   
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

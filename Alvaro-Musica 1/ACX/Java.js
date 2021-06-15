@@ -1,2 +1,0 @@
-function mostrarMensaje(){
-	alert('Tecnovacion');}

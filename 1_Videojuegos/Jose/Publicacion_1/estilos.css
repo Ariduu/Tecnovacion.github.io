@@ -253,10 +253,10 @@ header nav {
         border-top: 3px groove rgba(255, 255, 255, 0.1);        
     }
 .pieDePagina{
-    background-color: rgb(20, 18, 18);
+    background-color: rgb(19, 18, 20);
     text-align: center;
     clear: both;
-    box-shadow: 0 0 30px inset rgb(194, 159, 159);
+    box-shadow: 0 0 30px inset rgb(141, 45, 45);
     font-family: 'Stint Ultra Condensed', cursive;
     font-size: 35px;
 }
@@ -359,7 +359,7 @@ header nav {
 
         font-family: 'Source Code Pro', monospace;
         padding-left: 70px;
-    
+        text-align: justify;
         float: left;
 
     }
@@ -369,11 +369,14 @@ header nav {
         width: 80%;
         height: 80%;
         float: left;
+        text-align: justify;
+        
     }
 
     .coment{
         border-top: 1px #bfbfbf;
-        padding-top: 20px;
+        padding-top: 50px;
+        text-align: justify;
     }
 
 

@@ -26,13 +26,13 @@ function mostrarMensaje(){
             alert("persona menor" );
     }
 }
-
+*/
 
 
 //ejercicio2
 
-
-/*var text = 'hola mundo'
+/*
+var text = 'hola mundo'
 var caract = 9
 
 document.getElementById('texto32').innerHTML="son" + " " + caract + " " + 'caracteres ';
@@ -46,7 +46,7 @@ function mostrarMensaje(){
 
 }
 
-
+*/
 
 /*function nombre123()
 
@@ -101,7 +101,8 @@ function mostrarMensaje(){
 2.
 - definir una varaible tipo texto
 - condicional si la var tipo texto tiene mas de 20 caracteres debe mostrar mensaje "cant caracteres" */
-/*
+
+/*mostrar cant num
 let nmero = parseInt(prompt("introduzca un numero"));
 let contador = 0;
 while(nmero >= 1){
@@ -110,8 +111,8 @@ while(nmero >= 1){
 }
 document.write("el texto tiene" + contador + " caracteres")
 
-
 */
+
 
 
 /*

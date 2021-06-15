@@ -157,7 +157,7 @@ function pintar(color){
 
 }
 
-
+/*
 var numer1 = 10
 var numer2 = 2
 var resul3 = numer1 + numer2
@@ -202,7 +202,6 @@ function division()
 }   
 
 */
-
 
 
 

@@ -1,3 +1,7 @@
 //sirve para mostrar un mensaje emergente 
-    function mostrarmensaje ()
+    function mostrarmensaje (){
     alert('equipo hackeado')
+
+    function mostrarMensaje()}
+
+    

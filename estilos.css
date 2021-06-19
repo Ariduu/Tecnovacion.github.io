@@ -6,12 +6,11 @@
 
 /* Cuerpo */
 body{
-    background-color: #566164;
+    background-color: black;
     font-family: "Oswald", sans-serif;
     font-size: 16px;
-    box-shadow: inset 0 0 0 white;
 }
-
+    
 /* Contenedor total */
 .contenedor {
     width: 1519px;
@@ -44,19 +43,23 @@ body{
         margin-bottom: 20px;
     }
         .izquierda img{
-            width: 450px;
-            height: 250px;
+            width: 400px;
+            height: 300px;
             background-size: 100% 100%;
-            margin-top: 20px;
-        }
-        .bienvenido{ 
-            color: transparent; 
             margin-top: 10px;
+        }
+        .izquierda #canvas2 { 
+            width: 800px;
+            height: 100px;
+            margin-top: 10px;
+        }
+        /*.bienvenido{
+            color: transparent;
             font-family: "Quantico", sans-serif;   
             font-weight: bold;
             font-size: 100px;
             text-shadow: 0 0 10px #00b9c8, 0 0 0 white;
-        }
+        }*/
         .bienvenido:hover {
             background: radial-gradient(70% 20% at 50% 50%, rgba(0, 185, 200, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
         }
@@ -67,7 +70,8 @@ body{
             width: 70%;
             font-size: 40px;
             line-height: 42px;
-            margin-bottom: 60px;
+            margin-top: 30px;
+            margin-bottom: 40px;
             letter-spacing: 1px;
             font-family: 'Alegreya Sans', sans-serif;
         }
@@ -75,13 +79,11 @@ body{
             font-family: 'Alegreya Sans', sans-serif;
             font-weight: bold;
         }
-   
-    
-    #canvas1 { width: 50%; }
+
+    #canvas3 { width: 50%; }
     
 /* Menu banner */
-.secciones ul{ border: 1px solid white;}
-    .secciones li {
+.secciones li {
         padding: 0 10px;
         margin: 0 5px;
         border-radius: 10px;

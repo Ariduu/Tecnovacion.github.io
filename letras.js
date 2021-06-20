@@ -1,7 +1,7 @@
 const canvas = document.getElementById('canvas2');
 const ctx = canvas.getContext('2d');
-canvas.width = 900;
-canvas.height = 100;
+canvas.width = 1519;
+canvas.height = 650;
 let particleArray = [];
 
 // Mouse
@@ -12,16 +12,15 @@ const mouse = {
 }
 
 window.addEventListener('mousemove', function(event) {
-  mouse.x = event.x + 20;
-  mouse.y = event.y - 390;
+  mouse.x = event.x;
+  mouse.y = event.y - 70;
 });
 
-ctx.strokeStyle = 'white';
-ctx.strokeRect(0, 0, 900, 100);
+//ctx.strokeRect(0, 0, 840, 100);
 ctx.fillStyle = 'white';
 ctx.font = '100px Quantico';
-ctx.fillText('B I E N V E N I D O', 40, 85)
-const textCoordinates = ctx.getImageData(0, 0, 900, 100);
+ctx.fillText('B I E N V E N I D O', 15, 420)
+const textCoordinates = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
 class Particle {
   constructor(x, y) {
@@ -30,10 +29,10 @@ class Particle {
     this.size = 3;
     this.baseX = this.x;
     this.baseY = this.y;
-    this.density = (Math.random() * 500) + 100;
+    this.density = (Math.random()*300) + 10;
   }
   draw() {
-    ctx.fillStyle = 'white';
+    ctx.fillStyle = 'red';
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
     ctx.closePath();

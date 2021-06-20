@@ -23,9 +23,7 @@ myImage.addEventListener('load', function () {
       const green = pixels.data[(y * 4 * pixels.width) + (x * 4 + 1)];
       const blue = pixels.data[(y * 4 * pixels.width) + (x * 4 + 2)];
       const brightness = calculateRelativeBrightness(red, green, blue);
-      const cell = [
-        cellBrightness = brightness,
-      ];
+      const cell = [cellBrightness = brightness];
       row.push(cell);
     }
     mappedImage.push(row);
@@ -43,9 +41,9 @@ myImage.addEventListener('load', function () {
     constructor() {
       this.x = Math.random() * canvas.width;
       this.y = 0;
-      this.speed = 0;
-      this.velocity = Math.random() * 0.5;
-      this.size = Math.random() * 1.5 + 1;
+      this.speed = 3;
+      this.velocity = Math.random() * 5;
+      this.size = Math.random()*1.5 + 1;
       this.position1 = Math.floor(this.y);
       this.position2 = Math.floor(this.x);
     }
@@ -53,7 +51,7 @@ myImage.addEventListener('load', function () {
       this.position1 = Math.floor(this.y);
       this.position2 = Math.floor(this.x);
       this.speed = mappedImage[this.position1][this.position2][0];
-      let movement = (3.5 - this.speed) + this.velocity;
+      let movement = (3 - this.speed) + this.velocity;
 
       this.y += movement;
       if (this.y >= canvas.height) {

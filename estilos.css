@@ -48,7 +48,7 @@ body{
             background-size: 100% 100%;
             margin-top: 20px;
         }
-        .izquierda #canvas2 { border: 1px solid white;
+        .izquierda #canvas2 { 
             position: absolute;
             left: 0;
             width: 1519px;
@@ -72,8 +72,8 @@ body{
             width: 70%;
             font-size: 40px;
             line-height: 42px;
-            margin-top: 140px;
-            margin-bottom: 40px;
+            margin-top: 150px;
+            margin-bottom: 20px;
             letter-spacing: 1px;
             font-family: 'Alegreya Sans', sans-serif;
         }

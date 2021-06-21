@@ -211,7 +211,7 @@ window.addEventListener('load', function(){
         dots: '.carousel__indicadores',
         arrows: {
             prev: '.atras',
-            next: '.despues'
+            next: '.siguiente',
         }
     });
 

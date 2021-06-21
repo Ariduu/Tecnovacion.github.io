@@ -203,8 +203,19 @@ function division()
 
 */
 
+window.addEventListener('load', function(){
+    new Glider(document.querySelector('.carousel_lista'),{
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: true,
+        dots: '.carousel__indicadores',
+        arrows: {
+            prev: '.atras',
+            next: '.despues'
+        }
+    });
 
-
+});
 
 
 

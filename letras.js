@@ -18,18 +18,18 @@ window.addEventListener('mousemove', function(event) {
 
 //ctx.strokeRect(0, 0, 840, 100);
 ctx.fillStyle = 'white';
-ctx.font = '100px Quantico';
-ctx.fillText('B I E N V E N I D O', 15, 420)
+ctx.font = '25px Quantico';
+ctx.fillText('BIENVENDO', 2.5, 65, 117)
 const textCoordinates = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
 class Particle {
   constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.size = 3;
+    this.size = 1;
     this.baseX = this.x;
     this.baseY = this.y;
-    this.density = (Math.random()*300) + 10;
+    this.density = (Math.random()*100) + 100;
   }
   draw() {
     ctx.beginPath();
@@ -54,11 +54,11 @@ class Particle {
     } else {
       if (this.x !== this.baseX) {
         let dx = this.x - this.baseX;
-        this.x -= dx/10;
+        this.x -= dx/15;
       }
       if (this.y !== this.baseY) {
         let dy = this.y - this.baseY;
-        this.y -= dy/10;
+        this.y -= dy/15;
       }
     }
   }
@@ -71,7 +71,7 @@ function init() {
       if (textCoordinates.data[(y*4*textCoordinates.width) + (x*4) +3] > 30) {
         let positionX = x;
         let positionY = y;
-        particleArray.push(new Particle(positionX, positionY));
+        particleArray.push(new Particle(positionX*7, positionY*7));
       }
     }
   }
@@ -82,8 +82,29 @@ function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   for (let i=0; i<particleArray.length; i++) {
     particleArray[i].draw();
-    particleArray[i].update()
+    particleArray[i].update();
   }
+  connect();
   requestAnimationFrame(animate);
 }
 animate();
+
+function connect() {
+  for (let a=0; a<particleArray.length; a++) {
+    for (let b=0; b<particleArray.length; b++) {
+      let dx = particleArray[a].x - particleArray[b].x;
+      let dy = particleArray[a].y - particleArray[b].y;
+      let distance = Math.sqrt(dx*dx + dy*dy);
+
+      if (distance < 10) {
+        opacityValue = 1 - (distance/50);
+        ctx.strokeStyle = 'rgba(0,255,255,' + opacityValue + ')';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(particleArray[a].x, particleArray[a].y);
+        ctx.lineTo(particleArray[b].x, particleArray[b].y);
+        ctx.stroke();
+      }
+    }
+  }
+}

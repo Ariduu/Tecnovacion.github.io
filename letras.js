@@ -8,7 +8,7 @@ let particleArray = [];
 const mouse = {
   x: null,
   y: null,
-  radius: 30
+  radius: 40
 }
 
 window.addEventListener('mousemove', function(event) {
@@ -18,8 +18,8 @@ window.addEventListener('mousemove', function(event) {
 
 //ctx.strokeRect(0, 0, 840, 100);
 ctx.fillStyle = 'white';
-ctx.font = '25px Quantico';
-ctx.fillText('BIENVENDO', 2.5, 65, 117)
+ctx.font = '30px Quantico';
+ctx.fillText('BIENVENIDO', 1, 75, 140)
 const textCoordinates = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
 class Particle {
@@ -71,7 +71,7 @@ function init() {
       if (textCoordinates.data[(y*4*textCoordinates.width) + (x*4) +3] > 30) {
         let positionX = x;
         let positionY = y;
-        particleArray.push(new Particle(positionX*7, positionY*7));
+        particleArray.push(new Particle(positionX*6, positionY*6));
       }
     }
   }

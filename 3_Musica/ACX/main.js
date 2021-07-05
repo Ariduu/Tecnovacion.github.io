@@ -31,7 +31,7 @@ document.querySelectorAll('#menu .categorias a').forEach((elemento) => {
 	});
 });
 
-// EventListeners para dispositivo movil.
+// Oyentes de eventos para dispositivo movil.
 document.querySelector('#btn-menu-barras').addEventListener('click', (e) => {
 	e.preventDefault();
 	if(contenedorEnlacesNav.classList.contains('activo')){

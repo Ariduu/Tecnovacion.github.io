@@ -47,15 +47,10 @@ H1 {
         margin: 5px 0;
         color: yellowgreen;
     }
-
-    h3 {
-        color: rgb(76, 243, 20);
-        margin: 5px 0;
-    }
     .imagen1 { 
-        width: 300px;
+        width: 150px;
         margin: 10px auto;
-
+    
     }
 
     /* lista */
@@ -83,8 +78,7 @@ H1 {
         grid-template-columns: 1fr;
         margin: 10px 0;
     }
-    
-   
+
     .articulos a {
         border: 1px solid gray;
         width: 200px;

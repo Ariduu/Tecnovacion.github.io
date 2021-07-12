@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(../grupal/img/sFaoXq3.gif);
+    background-image: url(../grupal/img/R\ \(2\).gif);
     background-size: cover;
     color: rgb(1, 196, 255);
     font-size: 16px;
@@ -43,6 +43,18 @@ H1 {
     font-family: 'Roboto Mono', monospace;
     padding: 0 10px;
 }
+
+    p{
+        color: wheat;
+    }
+    li{
+        color: darkorange;
+        ;
+    }
+    h1{
+        color: wheat;
+    }
+    
     h2 {
         margin: 5px 0;
         color: yellowgreen;

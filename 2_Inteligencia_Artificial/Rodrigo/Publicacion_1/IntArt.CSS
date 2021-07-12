@@ -37,6 +37,10 @@ H1 {
     gap: 150px;
 }
 
+p {
+    color:  crimson;
+}
+
 /* Noticia */
 .miBlog { 
     width: 800px;

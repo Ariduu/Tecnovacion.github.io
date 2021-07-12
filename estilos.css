@@ -43,10 +43,10 @@ body{
         margin-bottom: 20px;
     }
         .izquierda img{
-            width: 300;
-            height: 280px;
+            width: 250;
+            height: 250px;
             background-size: 100% 100%;
-            margin-top: 20px;
+            margin-top: 30px;
         }
         .izquierda #canvas2 {
             position: absolute;
@@ -69,7 +69,7 @@ body{
             font-size: 40px;
             line-height: 42px;
             margin-top: 170px;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             letter-spacing: 1px;
             font-family: 'Alegreya Sans', sans-serif;
         }

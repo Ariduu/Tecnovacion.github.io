@@ -8,7 +8,7 @@ let particleArray = [];
 const mouse = {
   x: null,
   y: null,
-  radius: 50
+  radius: 75
 }
 
 window.addEventListener('mousemove', function(event) {
@@ -19,20 +19,20 @@ window.addEventListener('mousemove', function(event) {
 //ctx.strokeRect(0, 0, 840, 100);
 ctx.fillStyle = 'white';
 ctx.font = '15px Open Sans Condensed';
-ctx.fillText('B I E N V E N I D O', 1, 45, 85)
+ctx.fillText('B I E N V E N I D O', 1, 43, 85)
 const textCoordinates = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
 class Particle {
   constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.size = 2.5;
+    this.size = 2;
     this.baseX = this.x;
     this.baseY = this.y;
-    this.density = (Math.random()*50) + 1;
+    this.density = (Math.random()*50) + 5;
   }
   draw() {
-    ctx.fillStyle = 'white';
+    ctx.fillStyle = 'rgba(0, 255, 255)';
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
     ctx.closePath();
@@ -92,14 +92,14 @@ animate();
 
 function connect() {
   for (let a=0; a<particleArray.length; a++) {
-    for (let b=a; b<particleArray.length; b++) {
+    for (let b=0; b<particleArray.length; b++) {
       let dx = particleArray[a].x - particleArray[b].x;
       let dy = particleArray[a].y - particleArray[b].y;
       let distance = Math.sqrt(dx*dx + dy*dy);
-      opacityValue = 1 - (distance/25);
+      opacityValue = 1 - (distance/100);
 
-      if (distance < 25) {
-        ctx.strokeStyle = 'rgba(0,255,255,'+ opacityValue + ')';
+      if (distance < 20) {
+        ctx.strokeStyle = 'rgba(0,255,255,' + opacityValue + ')';
         ctx.lineWidth = 2;
         ctx.beginPath();
         ctx.moveTo(particleArray[a].x, particleArray[a].y);

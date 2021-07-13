@@ -354,29 +354,28 @@ header nav {
     }
         .fa-facebook:hover{
             color: cornflowerblue;
-            border-bottom: 1px solid cornflowerblue;
-          
+            
         }
         .fa-instagram:hover{
             color: rgb(151, 32, 230);   
-            border-bottom: 1px solid rgb(151, 32, 230);
+          
         }
         .fa-envelope:hover{
             color: rgb(194, 15, 24);
-            border-bottom: 1px solid rgb(194, 15, 24);
+            
         }
         .fa-money-bill-wave:hover{
             color: rgb(146, 71, 189);
-            border-bottom: 1px solid rgb(146, 71, 189);
+            
         }
         .fa-cc-paypal:hover{
             color: rgb(14, 38, 255);
-            border-bottom: 1px solid rgb(14, 38, 255);
+            
         }
 
         .fa-whatsapp:hover{
             color: rgb(2, 133, 2);
-            border-bottom: 1px solid rgb(2, 133, 2);
+     
         }
 
 

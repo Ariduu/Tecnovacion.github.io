@@ -215,6 +215,8 @@ window.addEventListener('load', function(){
     });
 
 });
+
+
 /*
 const slider = document.querySelector("#carousel_lista");
 let sliderSection = document.querySelectorAll(".carousel_elemento1");

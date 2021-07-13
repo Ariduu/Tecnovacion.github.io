@@ -27,7 +27,7 @@ header nav {
     background-color: var(--container-color);
     border: 1px solid var(--border-color);
     height: 60px;
-    color: white;
+    color: var(--text-color);
     display: flex;
     justify-content: space-between;  
     align-items: center;  
@@ -50,11 +50,10 @@ header li input {
     width: 500px; 
     height: 30px;
     border-radius: 50px;
-    color: rgb(190, 190, 190);
+    background-color: var(--text-color);
 }
 header li i { 
     font-size: 18px; 
-    color: rgb(190, 190, 190); 
     cursor: pointer;
 }
 

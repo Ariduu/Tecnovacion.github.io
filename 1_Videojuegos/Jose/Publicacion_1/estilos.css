@@ -42,6 +42,11 @@ a { text-decoration: none; color: white; }
 }
 
 
+.atras:hover,
+.siguiente:hover {
+    opacity: 100%;
+}
+
 .siguiente{
     
     right: -0.1px;

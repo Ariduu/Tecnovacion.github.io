@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(../grupal/img/sFaoXq3.gif);
+    background-image: url(../grupal/img/R\ \(2\).gif);
     background-size: cover;
     color: rgb(1, 196, 255);
     font-size: 16px;
@@ -37,23 +37,37 @@ H1 {
     gap: 150px;
 }
 
-p {
-    color:  crimson;
-}
-
 /* Noticia */
 .miBlog { 
     width: 800px;
     font-family: 'Roboto Mono', monospace;
     padding: 0 10px;
 }
+
+    p{
+        color: wheat;
+    }
+    li{
+        color: darkorange;
+        ;
+    }
+    h1{
+        color: wheat;
+    }
+    
     h2 {
         margin: 5px 0;
         color: yellowgreen;
     }
+
+    h3 {
+        color: rgb(76, 243, 20);
+        margin: 5px 0;
+    }
     .imagen1 { 
         width: 300px;
         margin: 10px auto;
+
     }
 
     /* lista */
@@ -81,7 +95,8 @@ p {
         grid-template-columns: 1fr;
         margin: 10px 0;
     }
-
+    
+   
     .articulos a {
         border: 1px solid gray;
         width: 200px;
@@ -90,11 +105,15 @@ p {
         margin: 10px 0;
     }
     
-    .noticia1:hover, .noticia2:hover {
+    .noticia1:hover {
+        border: 1px solid white;
+        box-shadow: inset 0px 0px 50px rgb(0, 247, 255);
+        
+    }
+    .noticia2:hover {
         border: 1px solid white;
         box-shadow: inset 0px 0px 50px rgb(0, 247, 255);
     }
-
 /* 
     margin-top: espacio fuera del cuadro desde arriba
     margin-bottom: espacio fuera del cuadro desde abajo

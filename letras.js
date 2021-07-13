@@ -1,37 +1,38 @@
 const canvas = document.getElementById('canvas2');
 const ctx = canvas.getContext('2d');
-canvas.width = 1519;
-canvas.height = 650;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 let particleArray = [];
 
 // Mouse
 const mouse = {
   x: null,
   y: null,
-  radius: 40
+  radius: 150
 }
 
 window.addEventListener('mousemove', function(event) {
-  mouse.x = event.x;
-  mouse.y = event.y - 70;
+  mouse.x = event.x + 100;
+  mouse.y = event.y;
 });
 
 //ctx.strokeRect(0, 0, 840, 100);
 ctx.fillStyle = 'white';
-ctx.font = '30px Quantico';
-ctx.fillText('BIENVENIDO', 1, 75, 140)
+ctx.font = '15px Open Sans Condensed';
+ctx.fillText('B I E N V E N I D O', 3, 34.3, 85)
 const textCoordinates = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
 class Particle {
   constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.size = 1;
+    this.size = 2;
     this.baseX = this.x;
     this.baseY = this.y;
-    this.density = (Math.random()*100) + 100;
+    this.density = (Math.random()*100) + 5;
   }
   draw() {
+    ctx.fillStyle = 'rgba(0, 255, 255)';
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
     ctx.closePath();
@@ -71,7 +72,7 @@ function init() {
       if (textCoordinates.data[(y*4*textCoordinates.width) + (x*4) +3] > 30) {
         let positionX = x;
         let positionY = y;
-        particleArray.push(new Particle(positionX*6, positionY*6));
+        particleArray.push(new Particle(positionX*17, positionY*17));
       }
     }
   }
@@ -95,11 +96,11 @@ function connect() {
       let dx = particleArray[a].x - particleArray[b].x;
       let dy = particleArray[a].y - particleArray[b].y;
       let distance = Math.sqrt(dx*dx + dy*dy);
+      opacityValue = 1 - (distance/100);
 
-      if (distance < 10) {
-        opacityValue = 1 - (distance/50);
+      if (distance < 40) {
         ctx.strokeStyle = 'rgba(0,255,255,' + opacityValue + ')';
-        ctx.lineWidth = 2;
+        ctx.lineWidth = 3;
         ctx.beginPath();
         ctx.moveTo(particleArray[a].x, particleArray[a].y);
         ctx.lineTo(particleArray[b].x, particleArray[b].y);

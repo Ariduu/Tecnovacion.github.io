@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="estilos.css">      <!-- Pagina principal -->
     <link rel="stylesheet" href="pieDePagina.css">  <!-- Pie de página -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- Font Oswald -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap">
     <!-- Font Quantico -->
@@ -18,22 +19,28 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira:wght@100;500&display=swap">
     <!-- Font Alegreya Sans -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&display=swap">
+    <!-- Font Open Sans Condensed -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li> <a class="nombre" href=""> TECNOVACIÓN </a></li>
+                <li> <a class="nombre" href="index.html"> TECNOVACIÓN </a> </li>
             </ul>
             <ul>
-                <li> <input type="search" value="  Busca aquí tu tema de interés" aria-live="polite" > </li>
+                <li> 
+                    <form action=""> 
+                        <input type="text" class="barraBusqueda" id="barraBusqueda" placeholder="Busca aquí tu tema de interés" > 
+                    </form> 
+                </li> 
                 <li> <i class="fa fa-search"></i> </li>
             </ul>
             <ul class="nav-end"> 
                 <li> <a class="suscribirse" href=""> Suscribirse </a> </li>
-                <li> <a class="registrarse" href=""> Registrarse </a> </li>
-                <li> <a class="iniciarSesion" href=""> Iniciar sesión </a> </li>
+                <li> <a class="registrarse" href="Usuarios/registrar.html"> Registrarse </a> </li>
+                <li> <a class="iniciarSesion" href="Usuarios/iniciarSesion.html"> Iniciar sesión </a> </li>
             </ul>
         </nav>
         <div class="botonContainer">
@@ -44,7 +51,7 @@
     </header>
 
     <div class="contenedor">
-        <div class="inicio">
+        <div class="inicio" id="inicio">
             <div class="izquierda">
                 <img src="Imagenes/Logo4.png" alt="Logo Tecnovación">
                 <canvas id="canvas2"></canvas>
@@ -58,88 +65,157 @@
             <canvas id="canvas3"></canvas>
         </div>
 
-        <div class="panelMenu">
+        <div class="noticias" id="noticias">
             <nav>
-                <div class="secciones">
-                    <ul>
-                        <li class="videojuegosBoton">
+                <div>
+                    <ul class="secciones" id="secciones">
+                        <li class="activo">
                             <a href=""> Videojuegos </a>
                         </li>
-                        <li class="iaBoton">
+                        <li class="activo">
                             <a href=""> Inteligencia Artificial </a>
                         </li>
-                        <li class="musicaBoton">
+                        <li class="activo">
                             <a href=""> Música </a>
                         </li>
-                        <li class="medicinaBoton">
+                        <li class="activo">
                             <a href=""> Medicina </a>
                         </li>
                     </ul>
                 </div>
-                <div class="bordeInferior"></div>
             </nav>
 
-            <div class="videojuegos">
-                <section>
+            <section class="grid">
+                <div class="item"
+                data-categoria="videojuegos"
+                data-etiqueta="videojuegos street figther"
+                >
                     <a href="1_Videojuegos/Jose/Publicacion_1/videojuegos.html">
-                        <article class="articulo1">
-                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        <div class="articulo1">
                             <h1>Publicación 1</h1>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
-                            </p>
-                        </article>
-                    </a>
-                   
-                    <a href="2_Inteligencia_Artificial/Rodrigo/Publicacion_1/index.html">
-                        <article class="articulo2">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
                             <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                            <h1>Publicación 2</h1>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
-                            </p>
-                        </article>
+                        </div>
                     </a>
-                   
-                    <a href="3_Musica/ACX/index.html">
-                        <article class="articulo3">
-                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                            <h1>Publicación 3</h1>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
-                            </p>
-                        </article>
-                    </a>
-                    
-                    <a href="">
-                        <article class="articulo4">
-                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                            <h1>Publicación 4</h1>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
-                            </p>
-                        </article>
-                    </a>
-                   
-                    <a href="">
-                        <article class="articulo5">
-                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                            <h1>Publicación 5</h1>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
-                            </p>
-                        </article>
-                    </a>
-                    
-                    <a href="">
-                        <article class="articulo6">
-                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
-                            <h1>Publicación 6</h1>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut!
-                            </p>
-                        </article>
-                    </a>
-                </section>
-
-                <div class="verTodo">
-                    <a href=""> Ver todo </a>
                 </div>
-            </div>
+
+                <div class="item"
+                data-categoria="videojuegos"
+                data-etiqueta="videojuegos"
+                >
+                    <a href="#">
+                        <div class="articulo2">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="videojuegos"
+                data-etiqueta="videojuegos"
+                >
+                    <a href="#">
+                        <div class="articulo3">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="inteligencia artificial"
+                data-etiqueta="inteligencia artificial rodrigo los chatbots"
+                >
+                    <a href="2_Inteligencia_Artificial/Rodrigo/Publicacion_1/index.html">
+                        <div class="articulo4">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="inteligencia artificial"
+                data-etiqueta="inteligencia artificial rodrigo"
+                >
+                    <a href="2_Inteligencia_Artificial/Rodrigo/Publicacion_2/index.html">
+                        <div class="articulo5">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="inteligencia artificial"
+                data-etiqueta="inteligencia artificial rodrigo"
+                >
+                    <a href="2_Inteligencia_Artificial/Rodrigo/Publicacion_3/index.html">
+                        <div class="articulo6">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="música"
+                data-etiqueta="música alvaro"
+                >
+                    <a href="3_Musica/ACX/index.html">
+                        <div class="articulo7">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="música"
+                data-etiqueta="música alvaro"
+                >
+                    <a href="#">
+                        <div class="articulo8">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="música"
+                data-etiqueta="música alvaro"
+                >
+                    <a href="#">
+                        <div class="articulo9">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="medicina"
+                data-etiqueta="medicina ariana"
+                >
+                    <a href="4_Medicina/Ariana/Publicacion_1/index.html">
+                        <div class="articulo10">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+            </section>
         </div>
     </div>
 
@@ -168,7 +244,18 @@
         <h1> COPYRIGHT®TECNOVACION </h1>
     </footer>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.7.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
     <script src="letras.js"></script>
+    <script src="personaje.js"></script>
     <script src="index.js"></script>
 </body>
 </html>

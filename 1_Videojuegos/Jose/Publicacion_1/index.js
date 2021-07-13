@@ -216,7 +216,24 @@ window.addEventListener('load', function(){
 
 });
 
+var slider = $('#carousel_lista')
 
+var siguiente = $('siguiente');
+var anterior = $('atras');
+
+$('#slider section:last').insertBefore('#slider section:first');
+
+
+/*
+const slider = document.querySelector("#carousel_lista");
+let sliderSection = document.querySelectorAll(".carousel_elemento1");
+let sliderSectionLast = document.querySelectorAll(".carousel_elemento1");
+let sliderSectionLast = sliderSection[sliderSection.length -1];
+
+const btnLeft = document.querySelector("#siguiente");
+const btnRight = document.querySelector("#atras");
+
+slider.insertAdjacentElement('afterbegin', sliderSectionLast)*/
 
 
 

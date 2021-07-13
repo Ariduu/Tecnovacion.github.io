@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(../grupal/img/sFaoXq3.gif);
+    background-image: url(../grupal/img/R\ \(1\).gif);
     background-size: cover;
     color: rgb(1, 196, 255);
     font-size: 16px;
@@ -37,10 +37,6 @@ H1 {
     gap: 150px;
 }
 
-p {
-    color:  crimson;
-}
-
 /* Noticia */
 .miBlog { 
     width: 800px;
@@ -52,8 +48,9 @@ p {
         color: yellowgreen;
     }
     .imagen1 { 
-        width: 300px;
+        width: 150px;
         margin: 10px auto;
+    
     }
 
     /* lista */
@@ -90,11 +87,15 @@ p {
         margin: 10px 0;
     }
     
-    .noticia1:hover, .noticia2:hover {
+    .noticia1:hover {
+        border: 1px solid white;
+        box-shadow: inset 0px 0px 50px rgb(0, 247, 255);
+        
+    }
+    .noticia2:hover {
         border: 1px solid white;
         box-shadow: inset 0px 0px 50px rgb(0, 247, 255);
     }
-
 /* 
     margin-top: espacio fuera del cuadro desde arriba
     margin-bottom: espacio fuera del cuadro desde abajo

@@ -215,6 +215,15 @@ window.addEventListener('load', function(){
     });
 
 });
+
+var slider = $('#carousel_lista')
+
+var siguiente = $('siguiente');
+var anterior = $('atras');
+
+$('#slider section:last').insertBefore('#slider section:first');
+
+
 /*
 const slider = document.querySelector("#carousel_lista");
 let sliderSection = document.querySelectorAll(".carousel_elemento1");

@@ -21,6 +21,7 @@ a { text-decoration: none; color: white; }
     padding-bottom: 250px;
     
 }*/
+/*slides*/
 
 .carousel_cont{
     position: relative;
@@ -28,37 +29,37 @@ a { text-decoration: none; color: white; }
 .atras,
 .siguiente{
     position: absolute;
-    width: 15px;
-    height: 55px;
+    display: block;
+    width: 70px;
+    height: 15px;
     border: none;
     top: calc(50% - 35px);
     cursor: pointer;
-    line-height: 30px;
+    line-height: 60px;
     background: none;
     opacity: 20%;
 
 }
+
+
 .siguiente{
     
-    right: -10px;
+    right: -0.1px;
 
 }
 
 
 .carousel_lista{
-    height: 600px;
-    width: 98%;
-    
-   
+    height: 620px;
+    width: 90%;
+    list-style: none;
+    display: flex;
+ 
 }
 
 
 
-
-
-
-
-
+/*slides*/
 
 
 

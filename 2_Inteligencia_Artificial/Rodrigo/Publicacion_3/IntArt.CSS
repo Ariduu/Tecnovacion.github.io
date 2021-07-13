@@ -107,5 +107,68 @@ H1 {
         abajo
 */
 
+.iconos{
+    height: 202px;
+    position: fixed;
+    left: 0;
+    bottom: calc(60% - 101px);
+}
+    .whatsapp, .instagram, .discord, .facebook{  
+        width: 40px;  
+        height: 40px;
+        font-size: 22px;
+        cursor: pointer;
+        border-radius: 35%;
+    }
+    
+    .fa-facebook-f{
+        color: rgb(72, 73, 160);;  
+    }
+    
+    .facebook{
+        background:none;    
+    }
+    .facebook:hover {
+        border: 3px solid cornflowerblue;
+    }
+    .fa-whatsapp{
+        color: rgb(10, 184, 19);;  
+    }
+    
+    .whatsapp {    
+        background: none;
+    }
+    .whatsapp:hover{
+        border: 3px solid rgb(110, 197, 117);
+    }
 
+    
+    .fa-instagram{
+        color: rgb(105, 21, 145);;  
+    }
+    
+    .instagram {
+        background: none;
+    }
+    .instagram:hover{
+        border: 3px solid rgb(105, 21, 145);
+
+        
+    }
+    .fa-discord{
+        color: rgb(46, 139, 214);
+        
+    }
+    .discord{ 
+        background: none;   
+    }
+    .discord:hover{
+        border: 3px solid rgb(46, 139, 214);
+    }
+
+    .facebook:hover, .whatsapp:hover, .instagram:hover, .discord:hover{
+        transition: .4s;
+        transform: translateX(10px) scale(1);
+        box-shadow: inset 0 0 10px rgb(153, 123, 123);
+    }
 

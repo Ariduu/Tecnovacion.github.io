@@ -133,6 +133,7 @@ body{
     background-color: var(--container-color);
     border-color: var(--border-color);
     text-align: center;
+    margin-bottom: 500px;
 }
     .grid .item {
         position: absolute;

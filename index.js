@@ -39,9 +39,14 @@ window.addEventListener('load', () =>
       event.target.classList.add('activo');
 
       const categoria = event.target.innerHTML.toLowerCase();
-      grid.filter(`[data-categoria="${categoria}"]`);
+      //grid.filter(`[data-categoria = "${categoria}"]`);
     })
   })
+  document.querySelector('#barraBusqueda').addEventListener('input', (evento) => {
+		const busqueda = evento.target.value;
+		grid.filter( (item) => item.getElement().dataset.etiquetas.includes(busqueda) );
+	});
 });
+
 
 

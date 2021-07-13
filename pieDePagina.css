@@ -35,7 +35,7 @@ marquee {
 /* Redes */
 .p-redes {
     display: flex;
-    color: var(--text-color);
+    color: var(--light-text-color);
 }
     /* 3 columnas */ 
     .p-redes aside { 
@@ -43,18 +43,22 @@ marquee {
         margin: 0 auto;
     }
         /* Contactanos / Donaciones / Siguenos */
-        .p-redes aside h2 { font-size: 30px; }
+        .p-redes aside h2 { 
+            font-size: 30px; 
+            margin-bottom: 5px;
+        }
+        /* Redes e informacion */
         .p-redes aside a { 
-            color: var(--light-text-color);
             text-decoration: none;
             font-size: 22px;
             margin: 10px;
+            color: var(--light-text-color);
             line-height: 30px;
             border-bottom: 1px solid transparent;
         }
         .p-redes aside a:hover {
-            color: var(--title-color);
-            border-bottom: 1px solid var(--title-color);
+            color: var(--main-color);
+            border-bottom: 1px solid var(--main-color);
         }
 
     /* Copyright */

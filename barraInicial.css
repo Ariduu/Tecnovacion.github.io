@@ -46,11 +46,13 @@ header nav {
 .nombre:hover { color: var(--text-color); }
 
 /* Buscador */
-header li input {
+.barraBusqueda {
     width: 500px; 
     height: 30px;
     border-radius: 50px;
     background-color: var(--text-color);
+    text-align: center;
+    border: none;
 }
 header li i { 
     font-size: 18px; 

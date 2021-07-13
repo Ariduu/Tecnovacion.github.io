@@ -40,7 +40,12 @@ body{
     color: var(--text-color);
     display: flex; 
     justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.5s linear 1s;
 }
+    .inicio.cargado {
+        opacity: 1;
+    }
     .izquierda {
         height: 650px;
         display: flex;
@@ -87,6 +92,11 @@ body{
 .noticias {
     width: 85%;
     margin: 30px auto;
+    opacity: 0;
+    transition: opacity 0.5s linear 1s;
+}
+.noticias.cargado {
+    opacity: 1;
 }
 /* Menu banner */
 .secciones {
@@ -111,35 +121,42 @@ body{
         color: var(--main-color);
         border-bottom: 1px solid var(--main-color);
     }
-
+    .secciones a.activo {
+        color: var(--main-color);
+        border-bottom: 1px solid var(--main-color);
+    }
 /* Noticias de videojuegos */
-.videojuegos {
+.grid {
+    width: 100%;
+    position: relative;
     border-radius: 50px;
     background-color: var(--container-color);
     border-color: var(--border-color);
     text-align: center;
 }
-.videojuegos section {
-    padding: 60px;
-    gap: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-}
-.videojuegos article { 
-    height: 300px;
-    border: 1px solid white; 
-    background-size: 100% 100%;
-    border-radius: 25px;
-}
-.articulo1{ 
-    background-image: url(Imagenes/Blog1.jpg);
-}
-.articulo2, .articulo3, .articulo4, .articulo5, .articulo6 {
-    background: url(Imagenes/PublicaAqui-videojuegos.jpg);
-}
-.videojuegos article:hover { 
-    color: var(--title-color);
-    border: 3px solid var(--main-color);
-    box-shadow: inset 0px 0px 100px 25px hsla(8, 100%, 50%, 0.5);
-}
+    .grid .item {
+        position: absolute;
+        display: block;
+        padding: 0;
+        margin: 25px;
+        width: calc(33.33% - 50px);
+    }
+    .grid .item div {
+        position: relative;
+        height: 300px;
+        background-size: 100% 100%;
+        border: 3px solid var(--border-color);
+        border-radius: 25px;
+    }
+    .grid .item div:hover { 
+        color: var(--title-color);
+        border: 3px solid var(--main-color);
+        box-shadow: inset 0px 0px 100px 25px rgba(255, 34, 0, 0.5);
+    }
+    .articulo1{    
+        background-image: url(Imagenes/Blog1.jpg);
+    }
+    .articulo2, .articulo3, .articulo4, .articulo5, .articulo6, .articulo7, .articulo8, .articulo9, .articulo10{
+        background: url(Imagenes/PublicaAqui-videojuegos.jpg);
+    }
+

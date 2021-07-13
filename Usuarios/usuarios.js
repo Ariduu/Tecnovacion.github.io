@@ -40,7 +40,7 @@
       var email = document.getElementById('emailR').value;
       var password = document.getElementById('passR').value;
     //alert("email: "+ email + " / password: " + password);
-    firebase.auth().createUserWithEmailAndPassword(email, password)
+    firebase.auth().createUserWithEmailAndPassword(emailR, passR)
   .then((userCredential) => {
     var user = userCredential.user;
   })
@@ -59,7 +59,7 @@
       var emailL = document.getElementById('emailS').value;
       var passwordL = document.getElementById('passS').value;
     //alert("email: "+ email + " / password: " + password);
-    firebase.auth().signInWithEmailAndPassword(emailL, passwordL)
+    firebase.auth().signInWithEmailAndPassword(emailS, passS)
   .then((userCredential) => {
     var user = userCredential.user;
   })

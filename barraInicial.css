@@ -3,7 +3,18 @@
     margin: 0;
     padding: 0;
 }
-header a { color: white; text-decoration: none; }
+:root {
+    --main-color       : #ff2301;
+    --title-color      : #EFF3F5;
+    --text-color       : #C8CDD0;
+    --light-text-color : #A0A7AC;
+    --border-color     : #2A3B47;
+    --container-color  : #212E36;
+    --body-color       : #192229;
+    --container-shadow : none;
+}
+
+header a { text-decoration: none; }
 header ul {
     list-style: none; 
     display: flex;
@@ -13,7 +24,8 @@ header ul {
 
 /* Contenedor de la barra inicial */
 header nav {
-    background-color: #2d3436;
+    background-color: var(--container-color);
+    border: 1px solid var(--border-color);
     height: 60px;
     color: white;
     display: flex;
@@ -23,14 +35,15 @@ header nav {
 
 /* Tecnovacion */
 .nombre {
+    color: var(--title-color);
     height: 60px;
     font-family: "Quantico", sans-serif;
     margin-left: 10px;
     font-weight: bold;
     font-size: 46px;
-    text-shadow: 3px 2px 3px rgb(0, 185, 200);
+    text-shadow: 3px 2px 3px var(--main-color);
 }
-.nombre:hover { color: #c4c4c4; }
+.nombre:hover { color: var(--text-color); }
 
 /* Buscador */
 header li input {
@@ -57,33 +70,19 @@ header li i {
     /* sucribirse */
     .suscribirse {
         font-size: 22px;
-        color: gold;
-        border: 2px solid gold;
-        text-shadow: 1.5px 1.5px 0px black;
-        box-shadow: inset 0px 0px 7px gold;
+        color: var(--text-color);
     }
     .suscribirse:hover {
-        box-shadow: inset 0px 0px 20px gold;
+        color: gold;
+        border-bottom: 1px solid gold;
     }
-        /* registrarse */
-    .registrarse { 
-        border: 2px solid;
-        box-shadow: inset 0px 0px 7px rgb(200, 0, 0);
+    /* registrarse */
+    .registrarse, .iniciarSesion { 
+        color: var(--text-color);
     }
-    .registrarse:hover {
-        color: rgb(200, 0, 0);
-        box-shadow: inset 0px 0px 20px rgb(200, 0, 0);
-        text-shadow: 1px 1px 0px black;
-    }
-        /* iniciarSesion */
-    .iniciarSesion { 
-        border: 2px solid ;
-        box-shadow: inset 0px 0px 7px rgb(0, 150, 200);
-    }
-    .iniciarSesion:hover {
-        color: rgb(0, 150, 200);        
-        box-shadow: inset 0px 0px 20px rgb(0, 150, 200);
-        text-shadow: 1px 1px 0px black;
+    .registrarse:hover, .iniciarSesion:hover {
+        color: var(--title-color);
+        border-bottom: 1px solid var(--title-color);
     }
 
 /* Boton flotante */

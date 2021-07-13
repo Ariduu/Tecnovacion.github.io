@@ -8,18 +8,18 @@ let particleArray = [];
 const mouse = {
   x: null,
   y: null,
-  radius: 75
+  radius: 150
 }
 
 window.addEventListener('mousemove', function(event) {
-  mouse.x = event.x;
-  mouse.y = event.y - 70;
+  mouse.x = event.x + 100;
+  mouse.y = event.y;
 });
 
 //ctx.strokeRect(0, 0, 840, 100);
 ctx.fillStyle = 'white';
 ctx.font = '15px Open Sans Condensed';
-ctx.fillText('B I E N V E N I D O', 1, 43, 85)
+ctx.fillText('B I E N V E N I D O', 3, 34.3, 85)
 const textCoordinates = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
 class Particle {
@@ -29,7 +29,7 @@ class Particle {
     this.size = 2;
     this.baseX = this.x;
     this.baseY = this.y;
-    this.density = (Math.random()*50) + 5;
+    this.density = (Math.random()*100) + 5;
   }
   draw() {
     ctx.fillStyle = 'rgba(0, 255, 255)';
@@ -72,7 +72,7 @@ function init() {
       if (textCoordinates.data[(y*4*textCoordinates.width) + (x*4) +3] > 30) {
         let positionX = x;
         let positionY = y;
-        particleArray.push(new Particle(positionX*10, positionY*10));
+        particleArray.push(new Particle(positionX*17, positionY*17));
       }
     }
   }
@@ -98,9 +98,9 @@ function connect() {
       let distance = Math.sqrt(dx*dx + dy*dy);
       opacityValue = 1 - (distance/100);
 
-      if (distance < 20) {
+      if (distance < 40) {
         ctx.strokeStyle = 'rgba(0,255,255,' + opacityValue + ')';
-        ctx.lineWidth = 2;
+        ctx.lineWidth = 3;
         ctx.beginPath();
         ctx.moveTo(particleArray[a].x, particleArray[a].y);
         ctx.lineTo(particleArray[b].x, particleArray[b].y);

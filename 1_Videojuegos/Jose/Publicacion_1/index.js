@@ -215,8 +215,16 @@ window.addEventListener('load', function(){
     });
 
 });
+/*
+const slider = document.querySelector("#carousel_lista");
+let sliderSection = document.querySelectorAll(".carousel_elemento1");
+let sliderSectionLast = document.querySelectorAll(".carousel_elemento1");
+let sliderSectionLast = sliderSection[sliderSection.length -1];
 
+const btnLeft = document.querySelector("#siguiente");
+const btnRight = document.querySelector("#atras");
 
+slider.insertAdjacentElement('afterbegin', sliderSectionLast)*/
 
 
 

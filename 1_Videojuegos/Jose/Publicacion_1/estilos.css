@@ -25,6 +25,7 @@ a { text-decoration: none; color: white; }
 
 .carousel_cont{
     position: relative;
+
 }
 .atras,
 .siguiente{
@@ -37,7 +38,12 @@ a { text-decoration: none; color: white; }
     cursor: pointer;
     line-height: 60px;
     background: none;
+    color: rgb(255, 255, 255);
     opacity: 20%;
+    font-size: 30px;
+    font-weight: bold;
+
+   
 
 }
 
@@ -59,12 +65,29 @@ a { text-decoration: none; color: white; }
     width: 90%;
     list-style: none;
     display: flex;
+    object-fit: cover;
  
 }
 
+.carousel__indicadores .glider-dot {
+    
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #ffffff;
+    opacity: .2;
+    border-radius: 2px;
 
+}
 
-/*slides*/
+.carousel__indicadores .glider-dot:hover {
+    opacity: .5;
+}
+.carousel__indicadores .glider-dot.active {
+    opacity: 1;
+}
+
+/*slides fin*/
 
 
 

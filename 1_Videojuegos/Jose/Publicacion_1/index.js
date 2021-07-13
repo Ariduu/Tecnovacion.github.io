@@ -218,6 +218,21 @@ window.addEventListener('load', function(){
 
 
 
+ /*
+btnRight.addEventListener('click', function(){
+    Next();
+})
+
+btnLeft.addEventListener('click', function(){
+    Prev();
+})
+
+
+setInterval(function(){
+    Next();
+
+},5000);
+*/
 
 
 

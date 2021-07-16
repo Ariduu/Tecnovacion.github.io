@@ -26,7 +26,7 @@ class Particle {
   constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.size = 2;
+    this.size = 3;
     this.baseX = this.x;
     this.baseY = this.y;
     this.density = (Math.random()*100) + 5;

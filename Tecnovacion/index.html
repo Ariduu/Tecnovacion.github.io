@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> TECNOVACIÓN </title>
+    <link rel="stylesheet" href="barraInicial.css"> <!-- Barra de navegación -->
+    <link rel="stylesheet" href="estilos.css">      <!-- Pagina principal -->
+    <link rel="stylesheet" href="pieDePagina.css">  <!-- Pie de página -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Font Oswald -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap">
+    <!-- Font Quantico -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Font Saira -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira:wght@100;500&display=swap">
+    <!-- Font Alegreya Sans -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&display=swap">
+    <!-- Font Open Sans Condensed -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a class="nombre" href="index.html"> TECNOVACIÓN </a> </li>
+            </ul>
+            <ul>
+                <li> 
+                    <form action=""> 
+                        <input type="text" class="barraBusqueda" id="barraBusqueda" placeholder="Busca aquí tu tema de interés" > 
+                    </form> 
+                </li> 
+                <li> <i class="fa fa-search"></i> </li>
+            </ul>
+            <ul class="nav-end"> 
+                <li> <a class="suscribirse" href=""> Suscribirse </a> </li>
+                <li> <a class="registrarse" href="Usuarios/registrar.html"> Registrarse </a> </li>
+                <li> <a class="iniciarSesion" href="Usuarios/iniciarSesion.html"> Iniciar sesión </a> </li>
+            </ul>
+        </nav>
+        <div class="botonContainer">
+            <div class="boton">
+                <i class="fa fa-chevron-up"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <div class="inicio" id="inicio">
+            <div class="izquierda">
+                <img src="Imagenes/Logo4.png" alt="Logo Tecnovación">
+                <canvas id="canvas2"></canvas>
+                <div class="informacion"> Aquí encontraras blogs sobre la tecnología en diversas áreas </div>
+                <div class="verMas">
+                    <p> VER ARTICULOS </p>
+                    <input type="image" src="Imagenes/flechaAbajo2.gif" width="70px" height="50px">
+                </div>
+            </div>
+
+            <canvas id="canvas3"></canvas>
+        </div>
+
+        <div class="noticias" id="noticias">
+            <nav>
+                <div>
+                    <ul class="secciones" id="secciones">
+                        <li class="activo">
+                            <a href="#"> Videojuegos </a>
+                        </li>
+                        <li>
+                            <a href="#"> Inteligencia Artificial </a>
+                        </li>
+                        <li>
+                            <a href="#"> Música </a>
+                        </li>
+                        <li>
+                            <a href="#"> Medicina </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section class="grid">
+                <div class="item"
+                data-categoria="videojuegos"
+                data-etiqueta="videojuegos street figther"
+                >
+                    <a href="1_Videojuegos/Jose/Publicacion_1/videojuegos.html">
+                        <div class="articulo1">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="videojuegos"
+                data-etiqueta="videojuegos"
+                >
+                    <a href="#">
+                        <div class="articulo2">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="videojuegos"
+                data-etiqueta="videojuegos"
+                >
+                    <a href="#">
+                        <div class="articulo3">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="inteligencia artificial"
+                data-etiqueta="inteligencia artificial rodrigo los chatbots"
+                >
+                    <a href="2_Inteligencia_Artificial/Rodrigo/Publicacion_1/index.html">
+                        <div class="articulo4">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="inteligencia artificial"
+                data-etiqueta="inteligencia artificial rodrigo"
+                >
+                    <a href="2_Inteligencia_Artificial/Rodrigo/Publicacion_2/index.html">
+                        <div class="articulo5">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="inteligencia artificial"
+                data-etiqueta="inteligencia artificial rodrigo"
+                >
+                    <a href="2_Inteligencia_Artificial/Rodrigo/Publicacion_3/index.html">
+                        <div class="articulo6">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="música"
+                data-etiqueta="música alvaro"
+                >
+                    <a href="3_Musica/ACX/index.html">
+                        <div class="articulo7">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="música"
+                data-etiqueta="música alvaro"
+                >
+                    <a href="#">
+                        <div class="articulo8">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="música"
+                data-etiqueta="música alvaro"
+                >
+                    <a href="#">
+                        <div class="articulo9">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item"
+                data-categoria="medicina"
+                data-etiqueta="medicina ariana"
+                >
+                    <a href="4_Medicina/Ariana/Publicacion_1/index.html">
+                        <div class="articulo10">
+                            <h1>Publicación 1</h1>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore reiciendis alias minima voluptatum assumenda! Officia doloribus eum exercitationem aut! </p>
+                            <time datetime="26-04-2021">Publicado el 26 de Abril del 2001</time>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="pieDePagina">
+        <marquee scrollamount=20px direction=right> ◄ Tecnovación ► </marquee>
+        <div class="p-redes">
+            <aside> 
+                <h2> Contáctanos </h2>
+                <a href="" class="fab fa-whatsapp"> <br> 912 345 678 </a>
+                <a href="" class="far fa-envelope"> <br> tecnovacion@gmail.com </a>
+            </aside>
+
+            <aside> 
+                <h2> Donaciones </h2>
+                <a href="https://www.rhinoazul.com/wp-content/uploads/2019/06/baner-pagos.png" class="fas fa-money-bill-wave"> <br> YAPE </a>
+                <a href="" class="fab fa-cc-paypal"> <br> tecnovacion@gmail.com </a>
+            </aside>
+            
+            <aside class="p-siguenos"> 
+                <h2> Síguenos </h2>
+                <a href="https://web.facebook.com/" class="fab fa-facebook" > <br> Facebook </a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram" > <br> Instagram </a>
+            </aside>
+        </div>
+    
+        <h1> COPYRIGHT®TECNOVACION </h1>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="letras.js"></script>
+    <script src="personaje.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

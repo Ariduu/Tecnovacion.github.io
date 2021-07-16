@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-color       : #ff2301;
+    --title-color      : #EFF3F5;
+    --text-color       : #C8CDD0;
+    --light-text-color : #A0A7AC;
+    --border-color     : #2A3B47;
+    --container-color  : #212E36;
+    --body-color       : #192229;
+    --container-shadow : none;
+}
+
+.pieDePagina{
+    width: 100%;
+    color: var(--text-color);
+    background-color: var(--container-color);
+    border: 1px solid var(--border-color);
+    text-align: center;
+    clear: both;
+}
+
+/* Texto en movimiento */
+marquee {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: transparent;
+    text-shadow: 0 0 10px red, 0 0 0 white;
+    margin-top: 5px;
+}
+
+/* Redes */
+.p-redes {
+    display: flex;
+    color: var(--light-text-color);
+}
+    /* 3 columnas */ 
+    .p-redes aside { 
+        width: 400px;
+        margin: 0 auto;
+    }
+        /* Contactanos / Donaciones / Siguenos */
+        .p-redes aside h2 { 
+            font-size: 30px; 
+            margin-bottom: 5px;
+        }
+        /* Redes e informacion */
+        .p-redes aside a { 
+            text-decoration: none;
+            font-size: 22px;
+            margin: 10px;
+            color: var(--light-text-color);
+            line-height: 30px;
+            border-bottom: 1px solid transparent;
+        }
+        .p-redes aside a:hover {
+            color: var(--main-color);
+            border-bottom: 1px solid var(--main-color);
+        }
+
+    /* Copyright */
+    .pieDePagina h1{
+        font-size: 18px;
+        padding: 5px 0;
+        color: var(--text-color);
+        box-shadow: 0 0 30px inset var(--main-color);
+    }
